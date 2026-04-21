@@ -1,0 +1,94 @@
+📘 LAB 3 – Documentation
+
+Property P3: The elements of the sublist all have the same parity (all even or all odd).
+Property R5: The element has repeating digits.
+
+🔹 Functionality 2 – Property P3
+Use Case Scenario
+
+Title: Find the longest sublist with all elements having the same parity.
+Actor: User
+Description:
+The user provides a list of integers. The program determines and displays the longest contiguous sublist in which all numbers are either even or odd.
+
+Precondition: The list of integers is loaded.
+Postcondition: The longest sublist satisfying property P3 is displayed.
+
+Steps:
+
+The user selects option 2 from the menu.
+
+The program iterates through the list and checks the parity of each element.
+
+It stores the longest sequence of elements with identical parity.
+
+The result is printed.
+
+List of Activities
+Step	Activity	Description
+1	Read list	The list is read using input and split into integers.
+2	Compare parity	The program checks if two consecutive numbers have the same parity.
+3	Track sublists	When parity changes, it compares the current sublist length with the longest one.
+4	Output result	Displays the longest sublist found.
+Test Cases
+Test Case	Input	Expected Output
+1	112 131 120 135 166 167 177 178 190	[131, 135]
+2	2 4 6 8 1 3 5	[2, 4, 6, 8]
+3	1 3 5 2 4 6	[1, 3, 5]
+4	1 2 3 4 5	[1] or [2]
+5	(empty list)	Message: "The list is empty."
+Example
+
+Input:
+
+112 131 120 135 166 167 177 178 190
+
+
+Output:
+
+The sublist with P property is: 131, 135
+
+🔹 Functionality 3 – Property R5
+Use Case Scenario
+
+Title: Remove elements that have repeating digits.
+Actor: User
+Description:
+The user chooses to remove all numbers from the current list that contain repeated digits when written in base 10.
+
+Precondition: The list of integers is available.
+Postcondition: The updated list contains only numbers with distinct digits.
+
+Steps:
+
+The user selects option 3 from the menu.
+
+For each element, the program checks whether it has repeating digits.
+
+Numbers with repeating digits are removed.
+
+The filtered list is displayed.
+
+List of Activities
+Step	Activity	Description
+1	Analyze digits	Convert the number to string and check for duplicates.
+2	Filter elements	Keep only numbers with unique digits.
+3	Replace list	Update the list with filtered values.
+4	Print list	Display the final list.
+Test Cases
+Test Case	Input	Expected Output
+1	112 131 120 135 166 167 177 178 190	[120, 135, 167, 178, 190]
+2	11 22 33	[]
+3	123 456 789	[123, 456, 789]
+4	909 808 707	[]
+5	101 102 103	[102, 103]
+Example
+
+Input:
+
+112 131 120 135 166 167 177 178 190
+
+
+Output:
+
+The final list is: 120, 135, 167, 178, 190
