@@ -1,0 +1,4 @@
+101; Gala Apple; FreshFarm; 30; 1.5
+102; Granny Smith Apple; SunnyFruit; 30; 2.0
+103; Red Delicious Apple; FreshFarm; 25; 3.5
+103; Williams Pear; FreshFarm; 11; 3.25

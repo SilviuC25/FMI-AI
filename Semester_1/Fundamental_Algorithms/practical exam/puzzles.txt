@@ -1,0 +1,7 @@
+101; Mountain Sunrise; 1000; 24.99
+205; [art collection] Starry Night; 500; 19.5
+312; Lake at Dawn; 768; 21.99
+404; Flower Valley; 2000; 34.0
+518; Abstract Shapes; 500; 18.0
+606; Mountain Lake; 500; 80.0
+206; abc ; 500; 40.0
