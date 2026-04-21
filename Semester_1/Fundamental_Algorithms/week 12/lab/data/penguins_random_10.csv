@@ -1,0 +1,11 @@
+studyName,Sample Number,Species,Region,Island,Stage,Individual ID,Clutch Completion,Date Egg,Culmen Length (mm),Culmen Depth (mm),Flipper Length (mm),Body Mass (g),Sex,Delta 15 N (o/oo),Delta 13 C (o/oo),Comments
+PAL0809,59,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N25A1,Yes,11/15/08,36.5,16.6,181.0,2850.0,FEMALE,9.07878,-25.88156,
+PAL0708,49,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N30A1,Yes,11/13/07,36.0,17.9,190.0,3450.0,FEMALE,9.51784,-25.07683,
+PAL0708,20,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N72A2,Yes,11/30/07,49.2,18.2,195.0,4400.0,MALE,9.27158,-24.64335,
+PAL0809,42,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N6A2,No,11/4/08,49.6,16.0,225.0,5700.0,MALE,8.38324,-26.84272,
+PAL0809,72,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N54A2,Yes,11/3/08,46.4,15.6,221.0,5000.0,MALE,8.35078,-26.70783,
+PAL0809,72,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N34A2,Yes,11/14/08,39.7,18.4,190.0,3900.0,MALE,9.29808,-25.23453,
+PAL0910,122,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N66A2,No,11/17/09,37.7,19.8,198.0,3500.0,MALE,9.11066,-26.42563,Nest never observed with full clutch.
+PAL0910,131,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N73A1,No,11/23/09,38.5,17.9,190.0,3325.0,FEMALE,8.9846,-25.57956,Nest never observed with full clutch.
+PAL0809,39,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N72A1,No,11/24/08,46.9,16.6,192.0,2700.0,FEMALE,9.80589,-24.73735,
+PAL0910,53,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N92A1,Yes,11/23/09,45.7,17.3,193.0,3600.0,FEMALE,9.415,-24.805,

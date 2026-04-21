@@ -1,0 +1,1033 @@
+studyName,Sample Number,Species,Region,Island,Stage,Individual ID,Clutch Completion,Date Egg,Culmen Length (mm),Culmen Depth (mm),Flipper Length (mm),Body Mass (g),Sex,Delta 15 N (o/oo),Delta 13 C (o/oo),Comments
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N1A1,Yes,11/11/07,39.1,18.7,181.0,3750.0,MALE,,,Not enough blood for isotopes.
+PAL0708,2,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N1A2,Yes,11/11/07,39.5,17.4,186.0,3800.0,FEMALE,8.94956,-24.69454,
+PAL0708,3,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N2A1,Yes,11/16/07,40.3,18.0,195.0,3250.0,FEMALE,8.36821,-25.33302,
+PAL0708,4,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N2A2,Yes,11/16/07,,,,,,,,Adult not sampled.
+PAL0708,5,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N3A1,Yes,11/16/07,36.7,19.3,193.0,3450.0,FEMALE,8.76651,-25.32426,
+PAL0708,6,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N3A2,Yes,11/16/07,39.3,20.6,190.0,3650.0,MALE,8.66496,-25.29805,
+PAL0708,7,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N4A1,No,11/15/07,38.9,17.8,181.0,3625.0,FEMALE,9.18718,-25.21799,Nest never observed with full clutch.
+PAL0708,8,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N4A2,No,11/15/07,39.2,19.6,195.0,4675.0,MALE,9.4606,-24.89958,Nest never observed with full clutch.
+PAL0708,9,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N5A1,Yes,11/9/07,34.1,18.1,193.0,3475.0,,,,No blood sample obtained.
+PAL0708,10,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N5A2,Yes,11/9/07,42.0,20.2,190.0,4250.0,,9.13362,-25.09368,No blood sample obtained for sexing.
+PAL0708,11,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N6A1,Yes,11/9/07,37.8,17.1,186.0,3300.0,,8.63243,-25.21315,No blood sample obtained for sexing.
+PAL0708,12,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N6A2,Yes,11/9/07,37.8,17.3,180.0,3700.0,,,,No blood sample obtained.
+PAL0708,13,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N7A1,Yes,11/15/07,41.1,17.6,182.0,3200.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,14,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N7A2,Yes,11/15/07,38.6,21.2,191.0,3800.0,MALE,,,Not enough blood for isotopes.
+PAL0708,15,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N8A1,Yes,11/16/07,34.6,21.1,198.0,4400.0,MALE,8.55583,-25.22588,
+PAL0708,16,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N8A2,Yes,11/16/07,36.6,17.8,185.0,3700.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,17,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N9A1,Yes,11/12/07,38.7,19.0,195.0,3450.0,FEMALE,9.18528,-25.06691,
+PAL0708,18,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N9A2,Yes,11/12/07,42.5,20.7,197.0,4500.0,MALE,8.67538,-25.13993,
+PAL0708,19,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N10A1,Yes,11/16/07,34.4,18.4,184.0,3325.0,FEMALE,8.47827,-25.23319,
+PAL0708,20,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N10A2,Yes,11/16/07,46.0,21.5,194.0,4200.0,MALE,9.11616,-24.77227,
+PAL0708,21,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N11A1,Yes,11/12/07,37.8,18.3,174.0,3400.0,FEMALE,8.73762,-25.09383,
+PAL0708,22,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N11A2,Yes,11/12/07,37.7,18.7,180.0,3600.0,MALE,8.66271,-25.0639,
+PAL0708,23,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N12A1,Yes,11/12/07,35.9,19.2,189.0,3800.0,FEMALE,9.22286,-25.03474,
+PAL0708,24,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N12A2,Yes,11/12/07,38.2,18.1,185.0,3950.0,MALE,8.43423,-25.22664,
+PAL0708,25,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N13A1,Yes,11/10/07,38.8,17.2,180.0,3800.0,MALE,9.63954,-25.29856,
+PAL0708,26,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N13A2,Yes,11/10/07,35.3,18.9,187.0,3800.0,FEMALE,9.21292,-24.3613,
+PAL0708,27,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N17A1,Yes,11/12/07,40.6,18.6,183.0,3550.0,MALE,8.93997,-25.36288,
+PAL0708,28,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N17A2,Yes,11/12/07,40.5,17.9,187.0,3200.0,FEMALE,8.08138,-25.49448,
+PAL0708,29,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N18A1,No,11/10/07,37.9,18.6,172.0,3150.0,FEMALE,8.38404,-25.19837,Nest never observed with full clutch.
+PAL0708,30,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N18A2,No,11/10/07,40.5,18.9,180.0,3950.0,MALE,8.90027,-25.11609,Nest never observed with full clutch.
+PAL0708,31,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N21A1,Yes,11/9/07,39.5,16.7,178.0,3250.0,FEMALE,9.69756,-25.11223,
+PAL0708,32,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N21A2,Yes,11/9/07,37.2,18.1,178.0,3900.0,MALE,9.72764,-25.0102,
+PAL0708,33,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N22A1,Yes,11/9/07,39.5,17.8,188.0,3300.0,FEMALE,9.66523,-25.0602,
+PAL0708,34,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N22A2,Yes,11/9/07,40.9,18.9,184.0,3900.0,MALE,8.79665,-25.14591,
+PAL0708,35,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N23A1,Yes,11/16/07,36.4,17.0,195.0,3325.0,FEMALE,9.17847,-25.23061,
+PAL0708,36,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N23A2,Yes,11/16/07,39.2,21.1,196.0,4150.0,MALE,9.15308,-25.03469,
+PAL0708,37,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N24A1,Yes,11/16/07,38.8,20.0,190.0,3950.0,MALE,9.18985,-25.12255,
+PAL0708,38,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N24A2,Yes,11/16/07,42.2,18.5,180.0,3550.0,FEMALE,8.04787,-25.49523,
+PAL0708,39,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N25A1,No,11/13/07,37.6,19.3,181.0,3300.0,FEMALE,9.41131,-25.04169,Nest never observed with full clutch.
+PAL0708,40,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N25A2,No,11/13/07,39.8,19.1,184.0,4650.0,MALE,,,Nest never observed with full clutch. Not enough blood for isotopes.
+PAL0708,41,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N26A1,Yes,11/16/07,36.5,18.0,182.0,3150.0,FEMALE,9.68933,-24.4228,
+PAL0708,42,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N26A2,Yes,11/16/07,40.8,18.4,195.0,3900.0,MALE,,,Not enough blood for isotopes.
+PAL0708,43,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N27A1,Yes,11/19/07,36.0,18.5,186.0,3100.0,FEMALE,9.50772,-25.03492,
+PAL0708,44,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N27A2,Yes,11/19/07,44.1,19.7,196.0,4400.0,MALE,9.2372,-24.52698,
+PAL0708,45,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N28A1,Yes,11/16/07,37.0,16.9,185.0,3000.0,FEMALE,9.36392,-25.01745,
+PAL0708,46,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N28A2,Yes,11/16/07,39.6,18.8,190.0,4600.0,MALE,9.49106,-24.10255,
+PAL0708,47,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N29A1,Yes,11/13/07,41.1,19.0,182.0,3425.0,MALE,,,Not enough blood for isotopes.
+PAL0708,48,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N29A2,Yes,11/13/07,37.5,18.9,179.0,2975.0,,,,Sexing primers did not amplify. Not enough blood for isotopes.
+PAL0708,49,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N30A1,Yes,11/13/07,36.0,17.9,190.0,3450.0,FEMALE,9.51784,-25.07683,
+PAL0708,50,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N30A2,Yes,11/13/07,42.3,21.2,191.0,4150.0,MALE,8.87988,-25.18543,
+PAL0809,51,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N21A1,Yes,11/6/08,39.6,17.7,186.0,3500.0,FEMALE,8.46616,-26.12989,
+PAL0809,52,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N21A2,Yes,11/6/08,40.1,18.9,188.0,4300.0,MALE,8.51362,-26.55602,
+PAL0809,53,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N22A1,Yes,11/9/08,35.0,17.9,190.0,3450.0,FEMALE,8.19539,-26.17213,
+PAL0809,54,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N22A2,Yes,11/9/08,42.0,19.5,200.0,4050.0,MALE,8.48095,-26.3146,
+PAL0809,55,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N23A1,Yes,11/9/08,34.5,18.1,187.0,2900.0,FEMALE,8.41837,-26.54718,
+PAL0809,56,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N23A2,Yes,11/9/08,41.4,18.6,191.0,3700.0,MALE,8.35396,-26.27853,
+PAL0809,57,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N24A1,Yes,11/15/08,39.0,17.5,186.0,3550.0,FEMALE,8.57199,-26.07188,
+PAL0809,58,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N24A2,Yes,11/15/08,40.6,18.8,193.0,3800.0,MALE,8.56674,-25.98843,
+PAL0809,59,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N25A1,Yes,11/15/08,36.5,16.6,181.0,2850.0,FEMALE,9.07878,-25.88156,
+PAL0809,60,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N25A2,Yes,11/15/08,37.6,19.1,194.0,3750.0,MALE,9.108,-25.89677,
+PAL0809,61,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N27A1,Yes,11/13/08,35.7,16.9,185.0,3150.0,FEMALE,8.96472,-26.40943,
+PAL0809,62,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N27A2,Yes,11/13/08,41.3,21.1,195.0,4400.0,MALE,8.74802,-26.37809,
+PAL0809,63,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N28A1,Yes,11/13/08,37.6,17.0,185.0,3600.0,FEMALE,8.58063,-26.21569,
+PAL0809,64,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N28A2,Yes,11/13/08,41.1,18.2,192.0,4050.0,MALE,8.62264,-26.60023,
+PAL0809,65,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N29A1,Yes,11/13/08,36.4,17.1,184.0,2850.0,FEMALE,8.62623,-26.1165,
+PAL0809,66,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N29A2,Yes,11/13/08,41.6,18.0,192.0,3950.0,MALE,8.85562,-26.09294,
+PAL0809,67,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N30A1,Yes,11/6/08,35.5,16.2,195.0,3350.0,FEMALE,8.56192,-25.95541,
+PAL0809,68,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N30A2,Yes,11/6/08,41.1,19.1,188.0,4100.0,MALE,8.71078,-25.81012,
+PAL0809,69,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N32A1,No,11/11/08,35.9,16.6,190.0,3050.0,FEMALE,8.47781,-26.07821,Nest never observed with full clutch.
+PAL0809,70,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N32A2,No,11/11/08,41.8,19.4,198.0,4450.0,MALE,8.86853,-26.06209,Nest never observed with full clutch.
+PAL0809,71,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N34A1,Yes,11/14/08,33.5,19.0,190.0,3600.0,FEMALE,7.88863,-26.63085,
+PAL0809,72,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N34A2,Yes,11/14/08,39.7,18.4,190.0,3900.0,MALE,9.29808,-25.23453,
+PAL0809,73,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N35A1,Yes,11/11/08,39.6,17.2,196.0,3550.0,FEMALE,8.33524,-26.55351,
+PAL0809,74,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N35A2,Yes,11/11/08,45.8,18.9,197.0,4150.0,MALE,8.18658,-26.45978,
+PAL0809,75,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N36A1,Yes,11/8/08,35.5,17.5,190.0,3700.0,FEMALE,8.70642,-26.15003,
+PAL0809,76,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N36A2,Yes,11/8/08,42.8,18.5,195.0,4250.0,MALE,8.2993,-26.38986,
+PAL0809,77,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N37A1,Yes,11/6/08,40.9,16.8,191.0,3700.0,FEMALE,8.47257,-26.02002,
+PAL0809,78,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N37A2,Yes,11/6/08,37.2,19.4,184.0,3900.0,MALE,8.3554,-26.44787,
+PAL0809,79,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N38A1,Yes,11/9/08,36.2,16.1,187.0,3550.0,FEMALE,7.82381,-26.51382,
+PAL0809,80,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N38A2,Yes,11/9/08,42.1,19.1,195.0,4000.0,MALE,9.05736,-25.81513,
+PAL0809,81,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N39A1,Yes,11/2/08,34.6,17.2,189.0,3200.0,FEMALE,7.69778,-26.5387,
+PAL0809,82,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N39A2,Yes,11/2/08,42.9,17.6,196.0,4700.0,MALE,8.63259,-26.23027,
+PAL0809,83,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N40A1,Yes,11/7/08,36.7,18.8,187.0,3800.0,FEMALE,7.88494,-26.24837,
+PAL0809,84,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N40A2,Yes,11/7/08,35.1,19.4,193.0,4200.0,MALE,8.90002,-26.46254,
+PAL0809,85,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N41A1,Yes,11/17/08,37.3,17.8,191.0,3350.0,FEMALE,8.32718,-26.38396,
+PAL0809,86,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N41A2,Yes,11/17/08,41.3,20.3,194.0,3550.0,MALE,9.14863,-26.09635,
+PAL0809,87,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N42A1,Yes,11/8/08,36.3,19.5,190.0,3800.0,MALE,8.57087,-26.22227,
+PAL0809,88,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N42A2,Yes,11/8/08,36.9,18.6,189.0,3500.0,FEMALE,8.59147,-26.08165,
+PAL0809,89,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N44A1,Yes,11/8/08,38.3,19.2,189.0,3950.0,MALE,9.07826,-26.12417,
+PAL0809,90,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N44A2,Yes,11/8/08,38.9,18.8,190.0,3600.0,FEMALE,8.36936,-26.11199,
+PAL0809,91,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N45A1,Yes,11/14/08,35.7,18.0,202.0,3550.0,FEMALE,8.46531,-26.05621,
+PAL0809,92,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N45A2,Yes,11/14/08,41.1,18.1,205.0,4300.0,MALE,8.77018,-25.83352,
+PAL0809,93,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N46A1,Yes,11/5/08,34.0,17.1,185.0,3400.0,FEMALE,8.01485,-26.69543,
+PAL0809,94,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N46A2,Yes,11/5/08,39.6,18.1,186.0,4450.0,MALE,8.49915,-26.42406,
+PAL0809,95,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N48A1,Yes,11/17/08,36.2,17.3,187.0,3300.0,FEMALE,8.90723,-26.30037,
+PAL0809,96,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N48A2,Yes,11/17/08,40.8,18.9,208.0,4300.0,MALE,8.48204,-26.57941,
+PAL0809,97,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N49A1,Yes,11/8/08,38.1,18.6,190.0,3700.0,FEMALE,8.10277,-26.50086,
+PAL0809,98,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N49A2,Yes,11/8/08,40.3,18.5,196.0,4350.0,MALE,8.39459,-26.01152,
+PAL0809,99,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N50A1,Yes,11/10/08,33.1,16.1,178.0,2900.0,FEMALE,9.04218,-26.15775,
+PAL0809,100,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N50A2,Yes,11/10/08,43.2,18.5,192.0,4100.0,MALE,8.97025,-26.03679,
+PAL0910,101,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N47A1,Yes,11/9/09,35.0,17.9,192.0,3725.0,FEMALE,8.84451,-26.28055,
+PAL0910,102,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N47A2,Yes,11/9/09,41.0,20.0,203.0,4725.0,MALE,9.01079,-26.38085,
+PAL0910,103,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N49A1,Yes,11/15/09,37.7,16.0,183.0,3075.0,FEMALE,9.2151,-26.2253,
+PAL0910,104,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N49A2,Yes,11/15/09,37.8,20.0,190.0,4250.0,MALE,9.51929,-25.69199,
+PAL0910,105,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N51A1,Yes,11/15/09,37.9,18.6,193.0,2925.0,FEMALE,9.02642,-25.86482,
+PAL0910,106,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N51A2,Yes,11/15/09,39.7,18.9,184.0,3550.0,MALE,8.85699,-25.80208,
+PAL0910,107,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N53A1,Yes,11/15/09,38.6,17.2,199.0,3750.0,FEMALE,8.77322,-26.48973,
+PAL0910,108,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N53A2,Yes,11/15/09,38.2,20.0,190.0,3900.0,MALE,9.59245,-25.70711,
+PAL0910,109,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N55A1,Yes,11/20/09,38.1,17.0,181.0,3175.0,FEMALE,9.79532,-25.27385,
+PAL0910,110,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N55A2,Yes,11/20/09,43.2,19.0,197.0,4775.0,MALE,9.31735,-25.45171,
+PAL0910,111,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N58A1,Yes,11/12/09,38.1,16.5,198.0,3825.0,FEMALE,8.43951,-26.57563,
+PAL0910,112,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N58A2,Yes,11/12/09,45.6,20.3,191.0,4600.0,MALE,8.65466,-26.32909,
+PAL0910,113,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N60A1,Yes,11/15/09,39.7,17.7,193.0,3200.0,FEMALE,9.02657,-26.06203,
+PAL0910,114,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N60A2,Yes,11/15/09,42.2,19.5,197.0,4275.0,MALE,8.80186,-26.41218,
+PAL0910,115,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N61A1,Yes,11/17/09,39.6,20.7,191.0,3900.0,FEMALE,8.80967,-26.78958,
+PAL0910,116,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",N61A2,Yes,11/17/09,42.7,18.3,196.0,4075.0,MALE,8.91434,-26.42018,
+PAL0910,117,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N63A1,Yes,11/18/09,38.6,17.0,188.0,2900.0,FEMALE,9.18021,-25.77264,
+PAL0910,118,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N63A2,Yes,11/18/09,37.3,20.5,199.0,3775.0,MALE,9.49645,-26.36678,
+PAL0910,119,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N64A1,Yes,11/22/09,35.7,17.0,189.0,3350.0,FEMALE,8.96436,-23.90309,
+PAL0910,120,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N64A2,Yes,11/22/09,41.1,18.6,189.0,3325.0,MALE,9.32277,-26.09989,
+PAL0910,121,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N66A1,No,11/17/09,36.2,17.2,187.0,3150.0,FEMALE,9.04296,-26.19444,Nest never observed with full clutch.
+PAL0910,122,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N66A2,No,11/17/09,37.7,19.8,198.0,3500.0,MALE,9.11066,-26.42563,Nest never observed with full clutch.
+PAL0910,123,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N67A1,Yes,11/16/09,40.2,17.0,176.0,3450.0,FEMALE,9.30722,-25.61039,
+PAL0910,124,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N67A2,Yes,11/16/09,41.4,18.5,202.0,3875.0,MALE,9.59462,-25.42621,
+PAL0910,125,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N69A1,Yes,11/18/09,35.2,15.9,186.0,3050.0,FEMALE,8.81668,-25.95399,
+PAL0910,126,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N69A2,Yes,11/18/09,40.6,19.0,199.0,4000.0,MALE,9.22537,-25.60826,
+PAL0910,127,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N71A1,Yes,11/21/09,38.8,17.6,191.0,3275.0,FEMALE,8.88098,-25.89741,
+PAL0910,128,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N71A2,Yes,11/21/09,41.5,18.3,195.0,4300.0,MALE,8.52566,-26.0245,
+PAL0910,129,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N72A1,Yes,11/18/09,39.0,17.1,191.0,3050.0,FEMALE,9.19031,-25.73722,
+PAL0910,130,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N72A2,Yes,11/18/09,44.1,18.0,210.0,4000.0,MALE,9.10702,-26.01363,
+PAL0910,131,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N73A1,No,11/23/09,38.5,17.9,190.0,3325.0,FEMALE,8.9846,-25.57956,Nest never observed with full clutch.
+PAL0910,132,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",N73A2,No,11/23/09,43.1,19.2,197.0,3500.0,MALE,8.86495,-26.1396,Nest never observed with full clutch.
+PAL0910,133,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N76A1,Yes,11/10/09,36.8,18.5,193.0,3500.0,FEMALE,8.98705,-25.57647,
+PAL0910,134,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N76A2,Yes,11/10/09,37.5,18.5,199.0,4475.0,MALE,8.56708,-26.49288,
+PAL0910,135,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N77A1,Yes,11/13/09,38.1,17.6,187.0,3425.0,FEMALE,8.717,-25.77951,
+PAL0910,136,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N77A2,Yes,11/13/09,41.1,17.5,190.0,3900.0,MALE,8.94365,-26.06943,
+PAL0910,137,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N78A1,Yes,11/16/09,35.6,17.5,191.0,3175.0,FEMALE,8.75984,-25.97696,
+PAL0910,138,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N78A2,Yes,11/16/09,40.2,20.1,200.0,3975.0,MALE,8.95998,-26.32601,
+PAL0910,139,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N79A1,No,11/16/09,37.0,16.5,185.0,3400.0,FEMALE,8.61651,-26.07021,Nest never observed with full clutch.
+PAL0910,140,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N79A2,No,11/16/09,39.7,17.9,193.0,4250.0,MALE,9.25769,-25.88798,Nest never observed with full clutch.
+PAL0910,141,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N80A1,Yes,11/14/09,40.2,17.1,193.0,3400.0,FEMALE,9.2881,-25.54976,
+PAL0910,142,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N80A2,Yes,11/14/09,40.6,17.2,187.0,3475.0,MALE,9.23408,-26.01549,
+PAL0910,143,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N81A1,Yes,11/16/09,32.1,15.5,188.0,3050.0,FEMALE,8.79787,-26.61075,
+PAL0910,144,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N81A2,Yes,11/16/09,40.7,17.0,190.0,3725.0,MALE,9.05674,-25.79529,
+PAL0910,145,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N82A1,Yes,11/16/09,37.3,16.8,192.0,3000.0,FEMALE,9.06829,-25.85203,
+PAL0910,146,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N82A2,Yes,11/16/09,39.0,18.7,185.0,3650.0,MALE,9.22033,-26.03442,
+PAL0910,147,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N83A1,Yes,11/13/09,39.2,18.6,190.0,4250.0,MALE,9.11006,-25.79549,
+PAL0910,148,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N83A2,Yes,11/13/09,36.6,18.4,184.0,3475.0,FEMALE,8.68744,-25.8306,
+PAL0910,149,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N84A1,Yes,11/17/09,36.0,17.8,195.0,3450.0,FEMALE,8.94332,-25.79189,
+PAL0910,150,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N84A2,Yes,11/17/09,37.8,18.1,193.0,3750.0,MALE,8.97533,-26.03495,
+PAL0910,151,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N85A1,Yes,11/17/09,36.0,17.1,187.0,3700.0,FEMALE,8.93465,-26.07081,
+PAL0910,152,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",N85A2,Yes,11/17/09,41.5,18.5,201.0,4000.0,MALE,8.8964,-26.06967,
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N61A1,No,11/19/07,46.5,17.9,192.0,3500.0,FEMALE,9.03935,-24.30229,
+PAL0708,2,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N61A2,No,11/19/07,50.0,19.5,196.0,3900.0,MALE,8.92069,-24.23592,
+PAL0708,3,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N62A1,Yes,11/26/07,51.3,19.2,193.0,3650.0,MALE,9.29078,-24.7557,
+PAL0708,4,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N62A2,Yes,11/26/07,45.4,18.7,188.0,3525.0,FEMALE,8.64701,-24.62717,
+PAL0708,5,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N64A1,Yes,11/21/07,52.7,19.8,197.0,3725.0,MALE,9.00642,-24.61867,
+PAL0708,6,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N64A2,Yes,11/21/07,45.2,17.8,198.0,3950.0,FEMALE,8.88942,-24.49433,
+PAL0708,7,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N66A1,Yes,11/28/07,46.1,18.2,178.0,3250.0,FEMALE,8.85664,-24.55644,
+PAL0708,8,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N66A2,Yes,11/28/07,51.3,18.2,197.0,3750.0,MALE,8.63701,-24.84059,
+PAL0708,9,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N67A1,Yes,11/21/07,46.0,18.9,195.0,4150.0,FEMALE,8.47173,-24.29229,
+PAL0708,10,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N67A2,Yes,11/21/07,51.3,19.9,198.0,3700.0,MALE,8.79581,-24.36088,
+PAL0708,11,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N68A1,Yes,11/28/07,46.6,17.8,193.0,3800.0,FEMALE,8.95063,-24.59897,
+PAL0708,12,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N68A2,Yes,11/28/07,51.7,20.3,194.0,3775.0,MALE,8.68747,-24.38751,
+PAL0708,13,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N69A1,Yes,11/26/07,47.0,17.3,185.0,3700.0,FEMALE,8.72037,-24.80526,
+PAL0708,14,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N69A2,Yes,11/26/07,52.0,18.1,201.0,4050.0,MALE,9.0233,-24.38933,
+PAL0708,15,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N70A1,Yes,11/22/07,45.9,17.1,190.0,3575.0,FEMALE,9.12277,-24.90024,
+PAL0708,16,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N70A2,Yes,11/22/07,50.5,19.6,201.0,4050.0,MALE,9.8059,-24.7294,
+PAL0708,17,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N71A1,No,11/30/07,50.3,20.0,197.0,3300.0,MALE,10.02019,-24.54704,
+PAL0708,18,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N71A2,No,11/30/07,58.0,17.8,181.0,3700.0,FEMALE,9.14382,-24.57994,
+PAL0708,19,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N72A1,Yes,11/30/07,46.4,18.6,190.0,3450.0,FEMALE,9.32105,-24.64162,
+PAL0708,20,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N72A2,Yes,11/30/07,49.2,18.2,195.0,4400.0,MALE,9.27158,-24.64335,
+PAL0708,21,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N73A1,Yes,12/3/07,42.4,17.3,181.0,3600.0,FEMALE,9.35138,-24.6879,
+PAL0708,22,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N73A2,Yes,12/3/07,48.5,17.5,191.0,3400.0,MALE,9.42666,-24.26375,
+PAL0708,23,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N85A1,No,11/28/07,43.2,16.6,187.0,2900.0,FEMALE,9.35416,-25.01185,
+PAL0708,24,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N85A2,No,11/28/07,50.6,19.4,193.0,3800.0,MALE,9.28153,-24.97134,
+PAL0708,25,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N89A1,No,11/28/07,46.7,17.9,195.0,3300.0,FEMALE,9.74144,-24.59467,
+PAL0708,26,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N89A2,No,11/28/07,52.0,19.0,197.0,4150.0,MALE,9.36799,-24.47142,
+PAL0809,27,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N61A1,No,11/25/08,50.5,18.4,200.0,3400.0,FEMALE,8.9399,-23.89017,
+PAL0809,28,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N61A2,No,11/25/08,49.5,19.0,200.0,3800.0,MALE,9.63074,-24.34684,
+PAL0809,29,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N62A1,Yes,11/14/08,46.4,17.8,191.0,3700.0,FEMALE,9.37369,-24.52896,
+PAL0809,30,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N62A2,Yes,11/14/08,52.8,20.0,205.0,4550.0,MALE,9.25177,-24.69638,
+PAL0809,31,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N63A1,Yes,11/24/08,40.9,16.6,187.0,3200.0,FEMALE,9.08458,-24.54903,
+PAL0809,32,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N63A2,Yes,11/24/08,54.2,20.8,201.0,4300.0,MALE,9.49283,-24.59996,
+PAL0809,33,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N65A1,Yes,11/24/08,42.5,16.7,187.0,3350.0,FEMALE,9.36668,-24.45195,
+PAL0809,34,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N65A2,Yes,11/24/08,51.0,18.8,203.0,4100.0,MALE,9.23196,-24.17282,
+PAL0809,35,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N67A1,Yes,11/25/08,49.7,18.6,195.0,3600.0,MALE,9.75486,-24.31198,
+PAL0809,36,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N67A2,Yes,11/25/08,47.5,16.8,199.0,3900.0,FEMALE,9.07825,-25.1455,
+PAL0809,37,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N69A1,Yes,11/14/08,47.6,18.3,195.0,3850.0,FEMALE,8.83502,-24.65859,
+PAL0809,38,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N69A2,Yes,11/14/08,52.0,20.7,210.0,4800.0,MALE,9.43146,-24.6844,
+PAL0809,39,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N72A1,No,11/24/08,46.9,16.6,192.0,2700.0,FEMALE,9.80589,-24.73735,
+PAL0809,40,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N72A2,No,11/24/08,53.5,19.9,205.0,4500.0,MALE,10.02544,-24.90816,
+PAL0809,41,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N74A1,Yes,11/24/08,49.0,19.5,210.0,3950.0,MALE,9.53262,-24.66867,
+PAL0809,42,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N74A2,Yes,11/24/08,46.2,17.5,187.0,3650.0,FEMALE,9.61734,-24.66188,
+PAL0809,43,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N75A1,Yes,11/14/08,50.9,19.1,196.0,3550.0,MALE,10.02372,-24.86594,
+PAL0809,44,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N75A2,Yes,11/14/08,45.5,17.0,196.0,3500.0,FEMALE,9.36493,-24.66259,
+PAL0910,45,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N86A1,Yes,11/17/09,50.9,17.9,196.0,3675.0,FEMALE,9.43684,-24.16566,
+PAL0910,46,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N86A2,Yes,11/17/09,50.8,18.5,201.0,4450.0,MALE,9.45827,-24.35575,
+PAL0910,47,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N87A1,Yes,11/27/09,50.1,17.9,190.0,3400.0,FEMALE,9.46819,-24.45721,
+PAL0910,48,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N87A2,Yes,11/27/09,49.0,19.6,212.0,4300.0,MALE,9.34089,-24.45189,
+PAL0910,49,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N88A1,Yes,11/23/09,51.5,18.7,187.0,3250.0,MALE,9.6895,-24.43062,
+PAL0910,50,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N88A2,Yes,11/23/09,49.8,17.3,198.0,3675.0,FEMALE,9.32169,-24.41562,
+PAL0910,51,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N90A1,Yes,11/21/09,48.1,16.4,199.0,3325.0,FEMALE,9.46929,-24.48403,
+PAL0910,52,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N90A2,Yes,11/21/09,51.4,19.0,201.0,3950.0,MALE,9.43782,-24.36202,
+PAL0910,53,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N92A1,Yes,11/23/09,45.7,17.3,193.0,3600.0,FEMALE,9.415,-24.805,
+PAL0910,54,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N92A2,Yes,11/23/09,50.7,19.7,203.0,4050.0,MALE,9.93727,-24.59066,
+PAL0910,55,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N93A1,Yes,11/27/09,42.5,17.3,187.0,3350.0,FEMALE,9.56534,-24.60882,
+PAL0910,56,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N93A2,Yes,11/27/09,52.2,18.8,197.0,3450.0,MALE,9.77528,-24.56481,
+PAL0910,57,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N94A1,Yes,11/21/09,45.2,16.6,191.0,3250.0,FEMALE,9.62357,-24.78984,
+PAL0910,58,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N94A2,Yes,11/21/09,49.3,19.9,203.0,4050.0,MALE,9.88809,-24.59513,
+PAL0910,59,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N95A1,Yes,11/21/09,50.2,18.8,202.0,3800.0,MALE,9.74492,-24.404,
+PAL0910,60,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N95A2,Yes,11/21/09,45.6,19.4,194.0,3525.0,FEMALE,9.46985,-24.65786,
+PAL0910,61,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N96A1,Yes,11/27/09,51.9,19.5,206.0,3950.0,MALE,,-23.78767,
+PAL0910,62,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N96A2,Yes,11/27/09,46.8,16.5,189.0,3650.0,FEMALE,9.65061,-24.48153,
+PAL0910,63,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N98A1,Yes,11/19/09,45.7,17.0,195.0,3650.0,FEMALE,9.26715,-24.31912,
+PAL0910,64,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N98A2,Yes,11/19/09,55.8,19.8,207.0,4000.0,MALE,9.70465,-24.53494,
+PAL0910,65,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N99A1,No,11/21/09,43.5,18.1,202.0,3400.0,FEMALE,9.37608,-24.40753,
+PAL0910,66,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N99A2,No,11/21/09,49.6,18.2,193.0,3775.0,MALE,9.4618,-24.70615,
+PAL0910,67,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N100A1,Yes,11/21/09,50.8,19.0,210.0,4100.0,MALE,9.98044,-24.68741,
+PAL0910,68,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",N100A2,Yes,11/21/09,50.2,18.7,198.0,3775.0,FEMALE,9.39305,-24.25255,
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N31A1,Yes,11/27/07,46.1,13.2,211.0,4500.0,FEMALE,7.993,-25.5139,
+PAL0708,2,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N31A2,Yes,11/27/07,50.0,16.3,230.0,5700.0,MALE,8.14756,-25.39369,
+PAL0708,3,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N32A1,Yes,11/27/07,48.7,14.1,210.0,4450.0,FEMALE,8.14705,-25.46172,
+PAL0708,4,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N32A2,Yes,11/27/07,50.0,15.2,218.0,5700.0,MALE,8.2554,-25.40075,
+PAL0708,5,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N33A1,Yes,11/18/07,47.6,14.5,215.0,5400.0,MALE,8.2345,-25.54456,
+PAL0708,6,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N33A2,Yes,11/18/07,46.5,13.5,210.0,4550.0,FEMALE,7.9953,-25.32829,
+PAL0708,7,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N34A1,Yes,11/27/07,45.4,14.6,211.0,4800.0,FEMALE,8.24515,-25.46782,
+PAL0708,8,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N34A2,Yes,11/27/07,46.7,15.3,219.0,5200.0,MALE,8.22673,-25.4276,
+PAL0708,9,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N35A1,Yes,11/27/07,43.3,13.4,209.0,4400.0,FEMALE,8.13643,-25.32176,
+PAL0708,10,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N35A2,Yes,11/27/07,46.8,15.4,215.0,5150.0,MALE,8.1631,-25.38017,
+PAL0708,11,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N36A1,No,11/27/07,40.9,13.7,214.0,4650.0,FEMALE,8.19579,-25.3933,
+PAL0708,12,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N36A2,No,11/27/07,49.0,16.1,216.0,5550.0,MALE,8.10417,-25.50562,
+PAL0708,13,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N37A1,Yes,11/29/07,45.5,13.7,214.0,4650.0,FEMALE,7.77672,-25.4168,
+PAL0708,14,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N37A2,Yes,11/29/07,48.4,14.6,213.0,5850.0,MALE,7.8208,-25.48025,
+PAL0708,15,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N38A1,Yes,12/3/07,45.8,14.6,210.0,4200.0,FEMALE,7.79958,-25.62618,
+PAL0708,16,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N38A2,Yes,12/3/07,49.3,15.7,217.0,5850.0,MALE,8.07137,-25.52473,
+PAL0708,17,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N39A1,Yes,11/27/07,42.0,13.5,210.0,4150.0,FEMALE,7.63884,-25.52627,
+PAL0708,18,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N39A2,Yes,11/27/07,49.2,15.2,221.0,6300.0,MALE,8.27376,-25.00169,
+PAL0708,19,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N40A1,Yes,11/27/07,46.2,14.5,209.0,4800.0,FEMALE,7.84057,-25.37899,
+PAL0708,20,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N40A2,Yes,11/27/07,48.7,15.1,222.0,5350.0,MALE,7.96491,-25.39587,
+PAL0708,21,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N41A1,Yes,11/27/07,50.2,14.3,218.0,5700.0,MALE,7.8962,-25.37746,
+PAL0708,22,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N41A2,Yes,11/27/07,45.1,14.5,215.0,5000.0,FEMALE,7.6322,-25.46569,
+PAL0708,23,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N42A1,Yes,11/27/07,46.5,14.5,213.0,4400.0,FEMALE,7.90436,-25.3947,
+PAL0708,24,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N42A2,Yes,11/27/07,46.3,15.8,215.0,5050.0,MALE,7.90971,-25.38157,
+PAL0708,25,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N44A1,Yes,11/29/07,42.9,13.1,215.0,5000.0,FEMALE,7.68528,-25.39181,
+PAL0708,26,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N44A2,Yes,11/29/07,46.1,15.1,215.0,5100.0,MALE,7.83733,-25.42826,
+PAL0708,27,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N46A1,Yes,11/29/07,44.5,14.3,216.0,4100.0,,7.96621,-25.69327,
+PAL0708,28,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N46A2,Yes,11/29/07,47.8,15.0,215.0,5650.0,MALE,7.92358,-25.48383,
+PAL0708,29,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N47A1,Yes,11/29/07,48.2,14.3,210.0,4600.0,FEMALE,7.6887,-25.50811,
+PAL0708,30,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N47A2,Yes,11/29/07,50.0,15.3,220.0,5550.0,MALE,8.30515,-25.19017,
+PAL0708,31,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N50A1,Yes,11/29/07,47.3,15.3,222.0,5250.0,MALE,,,
+PAL0708,32,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N50A2,Yes,11/29/07,42.8,14.2,209.0,4700.0,FEMALE,7.63452,-25.46327,
+PAL0708,33,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N56A1,Yes,12/3/07,45.1,14.5,207.0,5050.0,FEMALE,7.97408,-25.53768,
+PAL0708,34,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N56A2,Yes,12/3/07,59.6,17.0,230.0,6050.0,MALE,7.76843,-25.6821,
+PAL0809,35,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N2A1,Yes,11/13/08,49.1,14.8,220.0,5150.0,FEMALE,7.89744,-26.63405,
+PAL0809,36,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N2A2,Yes,11/13/08,48.4,16.3,220.0,5400.0,MALE,8.03659,-26.86127,
+PAL0809,37,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N4A1,Yes,11/2/08,42.6,13.7,213.0,4950.0,FEMALE,7.96935,-26.70968,
+PAL0809,38,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N4A2,Yes,11/2/08,44.4,17.3,219.0,5250.0,MALE,8.13746,-26.79093,
+PAL0809,39,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N5A1,Yes,11/9/08,44.0,13.6,208.0,4350.0,FEMALE,8.01979,-26.68311,
+PAL0809,40,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N5A2,Yes,11/9/08,48.7,15.7,208.0,5350.0,MALE,8.14776,-26.84506,
+PAL0809,41,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N6A1,No,11/4/08,42.7,13.7,208.0,3950.0,FEMALE,8.14567,-26.59467,
+PAL0809,42,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N6A2,No,11/4/08,49.6,16.0,225.0,5700.0,MALE,8.38324,-26.84272,
+PAL0809,43,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N7A1,Yes,11/4/08,45.3,13.7,210.0,4300.0,FEMALE,8.37615,-26.72791,
+PAL0809,44,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N7A2,Yes,11/4/08,49.6,15.0,216.0,4750.0,MALE,8.26548,-26.7699,
+PAL0809,45,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N8A1,Yes,11/3/08,50.5,15.9,222.0,5550.0,MALE,8.46894,-26.60436,
+PAL0809,46,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N8A2,Yes,11/3/08,43.6,13.9,217.0,4900.0,FEMALE,8.27141,-26.7765,
+PAL0809,47,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N11A1,No,11/9/08,45.5,13.9,210.0,4200.0,FEMALE,8.47829,-26.61788,
+PAL0809,48,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N11A2,No,11/9/08,50.5,15.9,225.0,5400.0,MALE,8.65803,-26.57585,
+PAL0809,49,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N12A1,Yes,11/2/08,44.9,13.3,213.0,5100.0,FEMALE,8.45167,-26.89644,
+PAL0809,50,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N12A2,Yes,11/2/08,45.2,15.8,215.0,5300.0,MALE,8.55868,-26.67799,
+PAL0809,51,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N13A1,Yes,11/4/08,46.6,14.2,210.0,4850.0,FEMALE,8.38289,-26.86352,
+PAL0809,52,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N13A2,Yes,11/4/08,48.5,14.1,220.0,5300.0,MALE,8.39867,-26.79358,
+PAL0809,53,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N14A1,Yes,11/4/08,45.1,14.4,210.0,4400.0,FEMALE,8.51951,-27.01854,
+PAL0809,54,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N14A2,Yes,11/4/08,50.1,15.0,225.0,5000.0,MALE,8.50153,-26.61414,
+PAL0809,55,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N15A1,Yes,11/4/08,46.5,14.4,217.0,4900.0,FEMALE,8.48789,-26.83006,
+PAL0809,56,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N15A2,Yes,11/4/08,45.0,15.4,220.0,5050.0,MALE,8.63488,-26.75621,
+PAL0809,57,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N16A1,Yes,11/3/08,43.8,13.9,208.0,4300.0,FEMALE,8.58319,-26.84415,
+PAL0809,58,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N16A2,Yes,11/3/08,45.5,15.0,220.0,5000.0,MALE,8.63604,-26.7489,
+PAL0809,59,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N17A1,Yes,11/6/08,43.2,14.5,208.0,4450.0,FEMALE,8.48367,-26.86485,
+PAL0809,60,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N17A2,Yes,11/6/08,50.4,15.3,224.0,5550.0,MALE,8.74647,-26.79846,
+PAL0809,61,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N18A1,Yes,11/3/08,45.3,13.8,208.0,4200.0,FEMALE,8.65015,-26.79053,
+PAL0809,62,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N18A2,Yes,11/3/08,46.2,14.9,221.0,5300.0,MALE,8.60092,-26.84374,
+PAL0809,63,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N19A1,Yes,11/13/08,45.7,13.9,214.0,4400.0,FEMALE,8.6287,-26.60484,
+PAL0809,64,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N19A2,Yes,11/13/08,54.3,15.7,231.0,5650.0,MALE,8.49662,-26.84166,
+PAL0809,65,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N20A1,Yes,11/4/08,45.8,14.2,219.0,4700.0,FEMALE,8.60447,-26.61601,
+PAL0809,66,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N20A2,Yes,11/4/08,49.8,16.8,230.0,5700.0,MALE,8.47067,-26.69166,
+PAL0809,67,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N51A1,Yes,11/9/08,46.2,14.4,214.0,4650.0,,8.24253,-26.8154,
+PAL0809,68,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N51A2,Yes,11/9/08,49.5,16.2,229.0,5800.0,MALE,8.49854,-26.74809,
+PAL0809,69,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N53A1,Yes,11/13/08,43.5,14.2,220.0,4700.0,FEMALE,8.64931,-26.68867,
+PAL0809,70,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N53A2,Yes,11/13/08,50.7,15.0,223.0,5550.0,MALE,8.63551,-26.74249,
+PAL0809,71,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N54A1,Yes,11/3/08,47.7,15.0,216.0,4750.0,FEMALE,8.53018,-26.72751,
+PAL0809,72,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N54A2,Yes,11/3/08,46.4,15.6,221.0,5000.0,MALE,8.35078,-26.70783,
+PAL0809,73,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N55A1,Yes,11/9/08,48.2,15.6,221.0,5100.0,MALE,8.24651,-26.66958,
+PAL0809,74,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N55A2,Yes,11/9/08,46.5,14.8,217.0,5200.0,FEMALE,8.58487,-26.5929,
+PAL0809,75,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N56A1,Yes,11/6/08,46.4,15.0,216.0,4700.0,FEMALE,8.47938,-26.9547,
+PAL0809,76,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N56A2,Yes,11/6/08,48.6,16.0,230.0,5800.0,MALE,8.5964,-26.71199,
+PAL0809,77,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N58A1,Yes,11/6/08,47.5,14.2,209.0,4600.0,FEMALE,8.39299,-26.78733,
+PAL0809,78,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N58A2,Yes,11/6/08,51.1,16.3,220.0,6000.0,MALE,8.40327,-26.76821,
+PAL0809,79,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N60A1,Yes,11/9/08,45.2,13.8,215.0,4750.0,FEMALE,8.24694,-26.65359,
+PAL0809,80,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N60A2,Yes,11/9/08,45.2,16.4,223.0,5950.0,MALE,8.19749,-26.65931,
+PAL0910,81,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N1A1,Yes,11/18/09,49.1,14.5,212.0,4625.0,FEMALE,8.35802,-26.2766,
+PAL0910,82,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N1A2,Yes,11/18/09,52.5,15.6,221.0,5450.0,MALE,8.28601,-26.27573,
+PAL0910,83,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N6A1,Yes,11/15/09,47.4,14.6,212.0,4725.0,FEMALE,8.19101,-26.24369,
+PAL0910,84,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N6A2,Yes,11/15/09,50.0,15.9,224.0,5350.0,MALE,8.20042,-26.39677,
+PAL0910,85,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N8A1,Yes,11/22/09,44.9,13.8,212.0,4750.0,FEMALE,8.11238,-26.20372,
+PAL0910,86,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N8A2,Yes,11/22/09,50.8,17.3,228.0,5600.0,MALE,8.27428,-26.30019,
+PAL0910,87,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N13A1,Yes,11/20/09,43.4,14.4,218.0,4600.0,FEMALE,8.23468,-26.18599,
+PAL0910,88,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N13A2,Yes,11/20/09,51.3,14.2,218.0,5300.0,MALE,8.15426,-26.3433,
+PAL0910,89,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N14A1,Yes,11/25/09,47.5,14.0,212.0,4875.0,FEMALE,8.12691,-26.23613,
+PAL0910,90,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N14A2,Yes,11/25/09,52.1,17.0,230.0,5550.0,MALE,8.27595,-26.11657,
+PAL0910,91,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N15A1,Yes,11/25/09,47.5,15.0,218.0,4950.0,FEMALE,8.29671,-26.08547,
+PAL0910,92,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N15A2,Yes,11/25/09,52.2,17.1,228.0,5400.0,MALE,8.36701,-25.89834,
+PAL0910,93,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N18A1,Yes,12/1/09,45.5,14.5,212.0,4750.0,FEMALE,8.15566,-26.22848,
+PAL0910,94,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N18A2,Yes,12/1/09,49.5,16.1,224.0,5650.0,MALE,8.83352,-25.69195,
+PAL0910,95,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N19A1,Yes,11/27/09,44.5,14.7,214.0,4850.0,FEMALE,8.20106,-26.16524,
+PAL0910,96,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N19A2,Yes,11/27/09,50.8,15.7,226.0,5200.0,MALE,8.27102,-26.11244,
+PAL0910,97,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N20A1,Yes,11/18/09,49.4,15.8,216.0,4925.0,MALE,8.03624,-26.06594,
+PAL0910,98,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N20A2,Yes,11/18/09,46.9,14.6,222.0,4875.0,FEMALE,7.8881,-26.04726,
+PAL0910,99,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N21A1,Yes,11/18/09,48.4,14.4,203.0,4625.0,FEMALE,8.16582,-26.13971,
+PAL0910,100,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N21A2,Yes,11/18/09,51.1,16.5,225.0,5250.0,MALE,8.2066,-26.36863,
+PAL0910,101,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N22A1,Yes,11/22/09,48.5,15.0,219.0,4850.0,FEMALE,8.10231,-26.18763,
+PAL0910,102,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N22A2,Yes,11/22/09,55.9,17.0,228.0,5600.0,MALE,8.3118,-26.35425,
+PAL0910,103,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N23A1,Yes,11/18/09,47.2,15.5,215.0,4975.0,FEMALE,8.30817,-26.21651,
+PAL0910,104,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N23A2,Yes,11/18/09,49.1,15.0,228.0,5500.0,MALE,8.65914,-25.79203,
+PAL0910,105,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N24A1,Yes,12/1/09,47.3,13.8,216.0,4725.0,,8.25818,-26.23886,
+PAL0910,106,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N24A2,Yes,12/1/09,46.8,16.1,215.0,5500.0,MALE,8.32359,-26.05756,
+PAL0910,107,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N28A1,Yes,11/10/09,41.7,14.7,210.0,4700.0,FEMALE,8.12311,-26.44815,
+PAL0910,108,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N28A2,Yes,11/10/09,53.4,15.8,219.0,5500.0,MALE,8.41017,-26.33867,
+PAL0910,109,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N29A1,Yes,11/9/09,43.3,14.0,208.0,4575.0,FEMALE,8.4207,-26.38092,
+PAL0910,110,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N29A2,Yes,11/9/09,48.1,15.1,209.0,5500.0,MALE,8.45738,-26.22664,
+PAL0910,111,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N32A1,Yes,11/20/09,50.5,15.2,216.0,5000.0,FEMALE,8.24691,-26.18466,
+PAL0910,112,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N32A2,Yes,11/20/09,49.8,15.9,229.0,5950.0,MALE,8.29226,-26.21019,
+PAL0910,113,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N34A1,Yes,11/27/09,43.5,15.2,213.0,4650.0,FEMALE,8.21634,-26.11046,
+PAL0910,114,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N34A2,Yes,11/27/09,51.5,16.3,230.0,5500.0,MALE,8.78557,-25.76147,
+PAL0910,115,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N35A1,Yes,11/25/09,46.2,14.1,217.0,4375.0,FEMALE,8.30231,-25.96013,
+PAL0910,116,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N35A2,Yes,11/25/09,55.1,16.0,230.0,5850.0,MALE,8.08354,-26.18161,
+PAL0910,117,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N36A1,Yes,12/1/09,44.5,15.7,217.0,4875.0,.,8.04111,-26.18444,
+PAL0910,118,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N36A2,Yes,12/1/09,48.8,16.2,222.0,6000.0,MALE,8.33825,-25.88547,
+PAL0910,119,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N38A1,No,12/1/09,47.2,13.7,214.0,4925.0,FEMALE,7.99184,-26.20538,
+PAL0910,120,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N38A2,No,12/1/09,,,,,,,,
+PAL0910,121,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N39A1,Yes,11/22/09,46.8,14.3,215.0,4850.0,FEMALE,8.41151,-26.13832,
+PAL0910,122,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N39A2,Yes,11/22/09,50.4,15.7,222.0,5750.0,MALE,8.30166,-26.04117,
+PAL0910,123,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N43A1,Yes,11/22/09,45.2,14.8,212.0,5200.0,FEMALE,8.24246,-26.11969,
+PAL0910,124,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",N43A2,Yes,11/22/09,49.9,16.1,213.0,5400.0,MALE,8.3639,-26.15531,
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053708_51198,Yes,11/11/07,44.3,16.2,203.0,5522.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_98880,Yes,11/11/07,38.9,19.9,216.0,3705.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_12683,Yes,11/11/07,42.6,15.8,209.0,3225.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_10743,Yes,11/11/07,40.0,16.7,175.0,4018.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_14795,Yes,11/11/07,37.8,13.4,221.0,5125.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_507,Yes,11/11/07,58.0,20.8,205.0,4196.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_6958,Yes,11/11/07,58.2,20.6,230.0,4466.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_45700,Yes,11/11/07,52.6,14.3,229.0,3614.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_59608,Yes,11/11/07,51.1,18.6,173.0,3768.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_20913,Yes,11/11/07,55.8,15.7,229.0,4460.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_48935,Yes,11/11/07,52.0,13.8,212.0,3296.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_69099,Yes,11/11/07,41.9,21.3,209.0,5855.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_88131,Yes,11/11/07,37.9,20.5,218.0,4860.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_62569,Yes,11/11/07,36.7,20.1,206.0,5539.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_83416,Yes,11/11/07,57.7,16.1,211.0,3769.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_32372,Yes,11/11/07,43.2,19.1,213.0,3968.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_54109,Yes,11/11/07,47.2,15.5,217.0,4172.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_53919,Yes,11/11/07,48.0,14.2,180.0,5928.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_74575,Yes,11/11/07,37.1,17.7,225.0,5917.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_81557,Yes,11/11/07,36.6,17.3,176.0,4204.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_79615,Yes,11/11/07,38.8,15.4,189.0,3366.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_35124,Yes,11/11/07,51.2,14.4,182.0,3298.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_67926,Yes,11/11/07,54.1,18.5,199.0,4648.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_17988,Yes,11/11/07,51.9,14.2,183.0,3363.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_17669,Yes,11/11/07,52.7,14.7,180.0,4112.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_54949,Yes,11/11/07,47.6,14.5,180.0,3826.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_90118,Yes,11/11/07,44.8,18.5,212.0,4461.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_38449,Yes,11/11/07,49.0,15.1,183.0,5390.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_21244,Yes,11/11/07,52.0,18.3,209.0,5381.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_61511,Yes,11/11/07,46.5,17.7,180.0,5017.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_28049,Yes,11/11/07,36.5,18.0,219.0,3324.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_32833,Yes,11/11/07,45.5,18.1,225.0,4853.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_12229,Yes,11/11/07,53.5,18.9,190.0,4933.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_24570,Yes,11/11/07,49.0,15.7,176.0,5558.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_53253,Yes,11/11/07,34.5,17.6,191.0,5559.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053709_96249,Yes,11/11/07,46.6,21.5,213.0,5024.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_10340,Yes,11/11/07,39.6,21.4,212.0,3580.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053709_64347,Yes,11/11/07,58.9,18.2,192.0,5909.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053709_71349,Yes,11/11/07,59.3,18.4,186.0,6001.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_43968,Yes,11/11/07,52.2,15.3,186.0,4756.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_94868,Yes,11/11/07,51.8,18.2,193.0,4308.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_26585,Yes,11/11/07,48.5,18.0,185.0,6263.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_78851,Yes,11/11/07,40.0,14.0,192.0,2861.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_11291,Yes,11/11/07,45.5,19.3,229.0,5334.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_33930,Yes,11/11/07,45.4,18.0,219.0,6263.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_75775,Yes,11/11/07,48.8,15.1,194.0,2943.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_12662,Yes,11/11/07,37.7,19.6,182.0,4964.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_77450,Yes,11/11/07,43.2,15.5,215.0,2961.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_56249,Yes,11/11/07,38.1,14.6,174.0,2799.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_48642,Yes,11/11/07,56.0,15.8,204.0,3828.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_83655,Yes,11/11/07,44.8,15.5,222.0,5444.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_60803,Yes,11/11/07,47.5,18.5,183.0,3134.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_93300,Yes,11/11/07,32.6,20.4,231.0,4401.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_68955,Yes,11/11/07,43.5,13.1,219.0,4183.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_25242,Yes,11/11/07,38.4,16.2,223.0,4652.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_41903,Yes,11/11/07,39.0,19.3,183.0,6030.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_23465,Yes,11/11/07,51.8,14.1,229.0,4292.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_28986,Yes,11/11/07,37.9,20.6,209.0,3430.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_30091,Yes,11/11/07,54.7,17.2,182.0,3590.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_46775,Yes,11/11/07,53.9,16.5,179.0,5650.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_41739,Yes,11/11/07,50.6,17.9,224.0,3228.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_3868,Yes,11/11/07,45.0,17.9,209.0,3176.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_9578,Yes,11/11/07,40.0,17.7,201.0,3157.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_68198,Yes,11/11/07,41.2,17.2,182.0,4177.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_46364,Yes,11/11/07,39.4,18.1,210.0,5048.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_76803,Yes,11/11/07,40.1,18.1,204.0,3701.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_62582,Yes,11/11/07,37.7,14.8,229.0,3183.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_30365,Yes,11/11/07,52.1,17.8,188.0,3374.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_95088,Yes,11/11/07,56.1,20.8,184.0,3115.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_80962,Yes,11/11/07,36.7,17.4,224.0,2971.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_77854,Yes,11/11/07,43.7,19.8,192.0,5848.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_33202,Yes,11/11/07,54.1,15.8,198.0,5985.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_2761,Yes,11/11/07,47.0,20.4,177.0,3884.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_78509,Yes,11/11/07,43.6,20.2,199.0,4673.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_22493,Yes,11/11/07,52.1,17.2,191.0,4425.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_58751,Yes,11/11/07,42.6,19.3,215.0,3302.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053710_27862,Yes,11/11/07,40.6,20.7,219.0,3143.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_41938,Yes,11/11/07,48.0,21.3,180.0,5618.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_31127,Yes,11/11/07,52.4,21.2,176.0,4841.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_12909,Yes,11/11/07,37.6,17.1,221.0,2885.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_91163,Yes,11/11/07,35.9,18.1,192.0,3695.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053710_41568,Yes,11/11/07,32.2,17.7,187.0,3020.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053710_74384,Yes,11/11/07,42.3,20.0,193.0,4693.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_56998,Yes,11/11/07,33.1,17.8,195.0,5171.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_65640,Yes,11/11/07,38.5,19.9,177.0,2849.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_49895,Yes,11/11/07,54.4,19.3,221.0,5889.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_41179,Yes,11/11/07,54.7,13.5,177.0,3247.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_18600,Yes,11/11/07,52.7,19.3,177.0,3719.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_38099,Yes,11/11/07,33.4,15.2,189.0,3278.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_98779,Yes,11/11/07,39.5,20.5,202.0,5089.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_69200,Yes,11/11/07,37.2,14.9,221.0,2756.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_25368,Yes,11/11/07,49.8,17.3,202.0,6048.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_41074,Yes,11/11/07,42.5,15.3,207.0,3065.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_92129,Yes,11/11/07,57.5,17.9,176.0,4430.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_94333,Yes,11/11/07,46.3,20.6,207.0,4531.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_34461,Yes,11/11/07,58.2,20.8,176.0,3666.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_91992,Yes,11/11/07,41.5,16.4,231.0,3992.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_40205,Yes,11/11/07,56.0,18.9,205.0,3858.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_79619,Yes,11/11/07,57.9,20.2,189.0,5575.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_44325,Yes,11/11/07,37.0,16.2,229.0,3603.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_39887,Yes,11/11/07,45.5,19.5,188.0,5719.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_24106,Yes,11/11/07,57.6,15.2,221.0,6008.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_14571,Yes,11/11/07,46.8,20.6,180.0,5814.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_12132,Yes,11/11/07,46.6,17.2,189.0,5563.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_9273,Yes,11/11/07,39.3,14.9,203.0,5649.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_13449,Yes,11/11/07,45.8,19.7,188.0,2943.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_42842,Yes,11/11/07,49.1,19.8,218.0,5115.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_11373,Yes,11/11/07,44.1,13.9,178.0,3590.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_50240,Yes,11/11/07,43.1,20.4,205.0,6205.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_11371,Yes,11/11/07,44.6,16.5,201.0,6180.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_17023,Yes,11/11/07,38.6,15.7,208.0,5707.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_27875,Yes,11/11/07,41.0,19.5,209.0,3714.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_27116,Yes,11/11/07,59.6,15.4,215.0,2998.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_33798,Yes,11/11/07,45.4,20.0,196.0,5082.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_51390,Yes,11/11/07,46.8,18.7,174.0,4357.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_92832,Yes,11/11/07,34.5,17.3,227.0,3538.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_29563,Yes,11/11/07,41.9,18.2,227.0,3429.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_95378,Yes,11/11/07,35.8,13.3,215.0,5724.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_27675,Yes,11/11/07,50.4,19.0,223.0,3675.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_90343,Yes,11/11/07,45.6,19.0,187.0,4410.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_57797,Yes,11/11/07,34.4,20.1,218.0,3130.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_17007,Yes,11/11/07,35.2,14.1,211.0,6197.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_82712,Yes,11/11/07,53.9,17.3,217.0,2814.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_24626,Yes,11/11/07,49.8,15.0,213.0,4187.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_15076,Yes,11/11/07,42.0,13.9,208.0,3481.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053711_7288,Yes,11/11/07,37.9,15.0,194.0,5668.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_63180,Yes,11/11/07,56.5,16.2,210.0,5441.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_59509,Yes,11/11/07,58.2,14.2,211.0,3595.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_71082,Yes,11/11/07,52.8,15.4,195.0,3785.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_52691,Yes,11/11/07,46.4,13.2,224.0,4978.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_31854,Yes,11/11/07,55.0,16.6,199.0,5366.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_20241,Yes,11/11/07,55.1,16.1,222.0,2886.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_97208,Yes,11/11/07,53.7,18.5,176.0,3902.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_21545,Yes,11/11/07,39.6,19.4,178.0,4093.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053711_49644,Yes,11/11/07,43.0,20.4,228.0,4102.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_71699,Yes,11/11/07,39.8,16.0,214.0,5046.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_46399,Yes,11/11/07,56.3,18.1,209.0,3552.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053711_62649,Yes,11/11/07,38.0,14.2,207.0,6199.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_3577,Yes,11/11/07,38.3,19.5,218.0,5818.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_59136,Yes,11/11/07,59.2,18.4,227.0,3056.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_51508,Yes,11/11/07,54.5,15.5,173.0,6001.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_78669,Yes,11/11/07,58.0,15.6,177.0,5095.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_16635,Yes,11/11/07,49.0,15.9,190.0,4801.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_18645,Yes,11/11/07,33.8,13.8,208.0,6288.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_45215,Yes,11/11/07,52.4,18.5,211.0,4417.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_4004,Yes,11/11/07,50.5,14.2,209.0,5043.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_59626,Yes,11/11/07,36.9,18.7,203.0,4302.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_81067,Yes,11/11/07,44.3,18.2,212.0,3516.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_14228,Yes,11/11/07,43.6,19.4,187.0,3980.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_66505,Yes,11/11/07,34.0,20.7,221.0,5426.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_24702,Yes,11/11/07,43.6,20.7,230.0,3828.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_69119,Yes,11/11/07,52.8,19.2,212.0,3811.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_57088,Yes,11/11/07,43.3,20.3,201.0,4298.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_79011,Yes,11/11/07,32.9,20.5,191.0,2901.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_14455,Yes,11/11/07,49.7,16.0,187.0,6144.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_94263,Yes,11/11/07,32.7,17.3,220.0,3442.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_16822,Yes,11/11/07,47.4,16.2,216.0,2919.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_48026,Yes,11/11/07,46.3,19.4,185.0,5924.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_44206,Yes,11/11/07,35.8,14.4,214.0,4440.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_10652,Yes,11/11/07,46.1,19.6,201.0,3703.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_72984,Yes,11/11/07,50.9,19.2,195.0,2972.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_9594,Yes,11/11/07,55.7,21.2,199.0,4800.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_42213,Yes,11/11/07,56.5,18.0,188.0,5269.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_20315,Yes,11/11/07,45.3,19.6,176.0,5087.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_67703,Yes,11/11/07,38.2,19.7,190.0,2904.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_60781,Yes,11/11/07,40.7,16.1,174.0,3528.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_98669,Yes,11/11/07,52.3,17.2,230.0,6080.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_56708,Yes,11/11/07,44.9,14.7,191.0,3215.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_75796,Yes,11/11/07,36.1,19.1,183.0,3237.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_88099,Yes,11/11/07,35.1,18.9,186.0,3165.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_24176,Yes,11/11/07,43.7,13.6,211.0,4717.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_92225,Yes,11/11/07,48.4,15.2,204.0,5525.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_5883,Yes,11/11/07,46.3,13.6,184.0,5070.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_51995,Yes,11/11/07,34.0,17.2,197.0,6183.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_67657,Yes,11/11/07,37.2,20.0,194.0,3991.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_95681,Yes,11/11/07,57.2,15.5,184.0,2891.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_53863,Yes,11/11/07,40.8,13.4,192.0,3113.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_13050,Yes,11/11/07,34.0,16.8,190.0,3849.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_65910,Yes,11/11/07,37.3,16.6,205.0,5463.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_15467,Yes,11/11/07,39.9,16.3,217.0,6289.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_13448,Yes,11/11/07,52.5,13.7,184.0,5158.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_76293,Yes,11/11/07,56.5,16.7,179.0,5946.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_92356,Yes,11/11/07,39.7,13.7,223.0,3092.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_35335,Yes,11/11/07,58.7,19.3,219.0,5473.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_64056,Yes,11/11/07,45.2,15.7,215.0,5540.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_55250,Yes,11/11/07,36.2,18.3,200.0,3111.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_70105,Yes,11/11/07,50.5,15.5,188.0,2730.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053712_27080,Yes,11/11/07,33.3,19.3,213.0,5987.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053712_75237,Yes,11/11/07,52.7,19.9,183.0,6168.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_38826,Yes,11/11/07,34.3,19.2,202.0,4344.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053712_64417,Yes,11/11/07,43.7,16.6,212.0,3941.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_9206,Yes,11/11/07,48.9,20.3,230.0,4273.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_60610,Yes,11/11/07,54.1,15.7,219.0,3926.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_68388,Yes,11/11/07,38.1,19.4,193.0,3614.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_98464,Yes,11/11/07,51.8,19.4,186.0,5115.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_56576,Yes,11/11/07,37.7,19.5,209.0,3498.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_7953,Yes,11/11/07,49.2,21.3,224.0,4652.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_12174,Yes,11/11/07,41.7,14.9,227.0,2905.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_20418,Yes,11/11/07,47.7,19.3,191.0,4880.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_64217,Yes,11/11/07,53.4,14.4,220.0,4602.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_30293,Yes,11/11/07,58.7,18.8,187.0,5768.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_95560,Yes,11/11/07,35.7,13.5,225.0,3216.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_54858,Yes,11/11/07,45.7,13.9,213.0,5180.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_35848,Yes,11/11/07,46.4,16.8,175.0,5727.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_39783,Yes,11/11/07,41.8,16.7,220.0,6025.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_18261,Yes,11/11/07,59.1,14.0,223.0,5065.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_72308,Yes,11/11/07,58.6,20.8,208.0,4064.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_99980,Yes,11/11/07,44.7,17.3,226.0,4137.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_19456,Yes,11/11/07,48.3,15.6,201.0,5113.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_19809,Yes,11/11/07,49.5,21.4,227.0,3310.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_99142,Yes,11/11/07,35.9,15.9,216.0,4578.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_97481,Yes,11/11/07,45.8,17.4,208.0,5313.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_54107,Yes,11/11/07,42.1,15.8,202.0,5994.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_34713,Yes,11/11/07,45.7,21.4,191.0,3042.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_77810,Yes,11/11/07,36.3,15.2,185.0,4588.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_40419,Yes,11/11/07,44.8,16.6,186.0,4839.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_89522,Yes,11/11/07,51.7,17.0,180.0,5397.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_67989,Yes,11/11/07,49.5,17.5,197.0,5227.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_94295,Yes,11/11/07,41.0,18.6,223.0,4268.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_42266,Yes,11/11/07,54.3,16.2,209.0,4866.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_44373,Yes,11/11/07,59.2,18.7,178.0,5852.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_21352,Yes,11/11/07,48.3,13.1,227.0,2975.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_7769,Yes,11/11/07,51.4,20.9,211.0,4494.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_86025,Yes,11/11/07,57.9,13.2,181.0,2730.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_38209,Yes,11/11/07,50.4,16.4,176.0,4415.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_74959,Yes,11/11/07,39.2,21.1,218.0,5739.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_93087,Yes,11/11/07,51.0,16.3,229.0,2882.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_86697,Yes,11/11/07,33.8,18.9,188.0,5859.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_29777,Yes,11/11/07,46.8,17.1,174.0,6211.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_70553,Yes,11/11/07,58.6,19.0,200.0,4764.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_31397,Yes,11/11/07,45.6,16.0,187.0,2990.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_47551,Yes,11/11/07,47.0,15.5,223.0,5790.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_6861,Yes,11/11/07,37.6,18.5,204.0,2718.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_26153,Yes,11/11/07,37.4,18.4,208.0,4485.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_79727,Yes,11/11/07,32.8,21.4,222.0,3084.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_71082,Yes,11/11/07,36.7,19.8,184.0,3902.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_84701,Yes,11/11/07,44.7,15.8,195.0,4984.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_58251,Yes,11/11/07,40.4,18.9,222.0,5212.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_31068,Yes,11/11/07,34.7,21.0,217.0,3008.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053713_94391,Yes,11/11/07,43.1,21.2,208.0,3396.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_6885,Yes,11/11/07,36.7,18.4,178.0,3345.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_47488,Yes,11/11/07,49.9,20.2,211.0,5730.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_46055,Yes,11/11/07,32.5,19.1,190.0,2952.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_36124,Yes,11/11/07,55.7,13.7,228.0,4914.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_16841,Yes,11/11/07,50.4,16.2,193.0,2874.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053713_94565,Yes,11/11/07,35.8,18.9,173.0,3770.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053713_83453,Yes,11/11/07,47.4,16.2,192.0,4730.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_52490,Yes,11/11/07,41.3,15.9,196.0,5577.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_94987,Yes,11/11/07,45.5,13.6,182.0,3852.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_16665,Yes,11/11/07,42.4,15.3,207.0,4819.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_24958,Yes,11/11/07,39.1,16.1,215.0,4691.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_10232,Yes,11/11/07,35.8,16.5,185.0,3004.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_49527,Yes,11/11/07,35.0,19.3,224.0,2746.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_34288,Yes,11/11/07,40.1,18.5,187.0,5325.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_8556,Yes,11/11/07,42.7,19.8,212.0,5993.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_99890,Yes,11/11/07,46.4,19.5,177.0,5017.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_63377,Yes,11/11/07,36.4,15.3,216.0,4818.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_43289,Yes,11/11/07,46.0,20.7,188.0,5817.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_49947,Yes,11/11/07,45.8,19.0,218.0,3711.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_50535,Yes,11/11/07,59.1,18.5,211.0,3500.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_96293,Yes,11/11/07,46.2,18.9,175.0,5656.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_92771,Yes,11/11/07,47.0,20.1,230.0,2912.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_68902,Yes,11/11/07,58.3,16.7,195.0,6174.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_84075,Yes,11/11/07,36.2,15.0,222.0,5393.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_57192,Yes,11/11/07,50.5,21.5,209.0,4496.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_43383,Yes,11/11/07,55.4,19.6,214.0,3425.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_2731,Yes,11/11/07,51.9,13.9,183.0,5706.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_98170,Yes,11/11/07,44.1,13.5,206.0,4569.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_98250,Yes,11/11/07,46.6,18.9,215.0,4484.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_56267,Yes,11/11/07,40.9,13.7,172.0,5918.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_21987,Yes,11/11/07,37.2,13.4,199.0,4839.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_33274,Yes,11/11/07,33.3,16.3,223.0,5534.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_45599,Yes,11/11/07,49.8,20.9,182.0,2988.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_72455,Yes,11/11/07,56.1,14.1,221.0,6108.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_53817,Yes,11/11/07,39.5,16.9,192.0,5012.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_78174,Yes,11/11/07,50.4,18.0,197.0,5778.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_68655,Yes,11/11/07,51.9,15.6,207.0,6252.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_23597,Yes,11/11/07,38.3,13.3,190.0,6269.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_53930,Yes,11/11/07,48.1,17.7,230.0,6029.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_73568,Yes,11/11/07,46.5,19.4,201.0,4557.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_59648,Yes,11/11/07,54.8,18.8,201.0,3270.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_43597,Yes,11/11/07,46.1,17.4,180.0,5656.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_17696,Yes,11/11/07,37.4,16.4,216.0,4199.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_74161,Yes,11/11/07,40.0,19.5,197.0,6296.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_68135,Yes,11/11/07,39.6,18.3,172.0,3635.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_86228,Yes,11/11/07,41.1,19.6,192.0,6005.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_18031,Yes,11/11/07,57.1,19.9,225.0,4551.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_42798,Yes,11/11/07,46.0,21.4,222.0,4709.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_14042,Yes,11/11/07,47.5,18.0,225.0,3481.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_45,Yes,11/11/07,53.2,16.6,222.0,6038.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_99472,Yes,11/11/07,40.7,15.2,174.0,3384.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_74969,Yes,11/11/07,46.2,20.6,193.0,6191.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_602,Yes,11/11/07,58.0,13.7,231.0,4368.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_34623,Yes,11/11/07,35.7,15.9,199.0,4081.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_47466,Yes,11/11/07,38.0,20.3,209.0,5473.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_98449,Yes,11/11/07,46.8,21.3,209.0,4563.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_61472,Yes,11/11/07,55.0,15.9,216.0,4405.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_19645,Yes,11/11/07,33.6,16.9,172.0,4725.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_44891,Yes,11/11/07,53.1,18.0,191.0,4420.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053714_258,Yes,11/11/07,46.8,16.0,195.0,3470.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_46817,Yes,11/11/07,32.6,16.3,174.0,4906.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053714_71851,Yes,11/11/07,38.9,18.9,227.0,6294.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053714_82613,Yes,11/11/07,38.4,17.5,210.0,3433.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_18080,Yes,11/11/07,55.2,14.2,227.0,3007.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_89675,Yes,11/11/07,46.2,15.6,203.0,6012.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_52419,Yes,11/11/07,32.8,14.8,224.0,6117.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_51411,Yes,11/11/07,57.3,18.0,207.0,3572.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_97698,Yes,11/11/07,46.5,13.8,191.0,2992.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_90255,Yes,11/11/07,39.2,20.1,211.0,5165.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_5016,Yes,11/11/07,37.1,15.1,219.0,5989.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_56988,Yes,11/11/07,35.7,20.2,176.0,5835.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_66940,Yes,11/11/07,50.4,13.3,218.0,3322.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_8872,Yes,11/11/07,48.2,20.9,205.0,3274.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_24429,Yes,11/11/07,49.9,17.6,179.0,5861.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_54581,Yes,11/11/07,58.3,14.0,182.0,4365.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_13232,Yes,11/11/07,55.1,14.6,225.0,4091.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_8243,Yes,11/11/07,58.0,13.5,198.0,5699.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_64166,Yes,11/11/07,32.6,20.8,196.0,4963.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_14433,Yes,11/11/07,32.1,17.1,227.0,5871.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_42851,Yes,11/11/07,35.3,15.9,197.0,4552.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_34200,Yes,11/11/07,45.3,19.0,179.0,5927.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_64536,Yes,11/11/07,59.5,19.1,183.0,5659.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_78017,Yes,11/11/07,45.2,20.8,176.0,3469.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_78883,Yes,11/11/07,35.5,18.5,209.0,3702.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_47406,Yes,11/11/07,40.9,19.0,177.0,3598.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_46233,Yes,11/11/07,53.8,17.0,222.0,5092.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_72384,Yes,11/11/07,39.4,14.6,227.0,5857.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_76540,Yes,11/11/07,43.9,14.0,192.0,5350.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_32436,Yes,11/11/07,48.4,16.4,188.0,5673.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_52894,Yes,11/11/07,34.5,21.3,220.0,4081.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_47231,Yes,11/11/07,56.1,20.5,178.0,4416.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_61830,Yes,11/11/07,42.7,17.0,213.0,5657.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_448,Yes,11/11/07,50.3,20.0,215.0,5481.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_79812,Yes,11/11/07,42.2,18.9,202.0,5761.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_57809,Yes,11/11/07,57.7,16.8,198.0,5151.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_67064,Yes,11/11/07,51.5,15.6,218.0,3489.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_69824,Yes,11/11/07,34.5,13.4,186.0,5425.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_6415,Yes,11/11/07,57.9,20.9,217.0,5421.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_20550,Yes,11/11/07,38.2,13.6,208.0,6063.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_51732,Yes,11/11/07,45.2,14.0,219.0,3271.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_7803,Yes,11/11/07,42.9,20.7,195.0,5734.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_52751,Yes,11/11/07,50.4,13.7,231.0,3811.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_1042,Yes,11/11/07,47.2,16.3,175.0,3642.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_85659,Yes,11/11/07,43.6,20.8,175.0,5646.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_50623,Yes,11/11/07,38.2,19.8,199.0,6228.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_49005,Yes,11/11/07,48.6,18.5,199.0,5658.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_34039,Yes,11/11/07,34.0,17.8,172.0,5158.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_55324,Yes,11/11/07,32.2,17.5,187.0,4937.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_96829,Yes,11/11/07,50.1,16.8,173.0,3889.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_46275,Yes,11/11/07,34.6,18.2,172.0,5805.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_80620,Yes,11/11/07,59.4,15.7,217.0,3719.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_68353,Yes,11/11/07,51.4,13.9,202.0,5120.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053715_76640,Yes,11/11/07,41.5,15.1,176.0,5670.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_14504,Yes,11/11/07,54.3,18.6,202.0,3200.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_45457,Yes,11/11/07,41.7,16.7,204.0,2830.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_63273,Yes,11/11/07,39.2,14.2,204.0,4375.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_8984,Yes,11/11/07,39.0,17.6,206.0,4456.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_20673,Yes,11/11/07,50.4,19.0,179.0,3181.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053715_60735,Yes,11/11/07,41.5,21.2,190.0,3279.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053715_28071,Yes,11/11/07,34.2,19.9,219.0,6256.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_45818,Yes,11/11/07,56.9,20.7,218.0,4018.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_55456,Yes,11/11/07,55.6,13.9,200.0,5313.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_58496,Yes,11/11/07,55.2,17.5,186.0,4775.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_48887,Yes,11/11/07,39.6,16.0,206.0,5991.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_81373,Yes,11/11/07,58.9,20.4,172.0,2838.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_44353,Yes,11/11/07,47.2,16.4,211.0,3979.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_25867,Yes,11/11/07,35.7,17.4,179.0,3564.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_24999,Yes,11/11/07,38.6,17.3,212.0,6156.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_52038,Yes,11/11/07,46.5,20.1,197.0,5899.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_42802,Yes,11/11/07,56.6,19.5,215.0,4966.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_43191,Yes,11/11/07,47.0,13.4,201.0,4653.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_45477,Yes,11/11/07,46.0,18.9,173.0,3881.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_6239,Yes,11/11/07,39.7,13.3,207.0,5303.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_95001,Yes,11/11/07,57.6,15.0,184.0,2752.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_73754,Yes,11/11/07,48.2,21.1,225.0,4851.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_39801,Yes,11/11/07,58.7,17.2,225.0,5432.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_36934,Yes,11/11/07,44.4,20.9,193.0,3989.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_62820,Yes,11/11/07,51.2,16.6,225.0,5859.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_64043,Yes,11/11/07,38.1,16.3,176.0,6118.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_85542,Yes,11/11/07,35.9,16.8,174.0,5829.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_95030,Yes,11/11/07,38.1,18.5,181.0,3972.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_51115,Yes,11/11/07,34.7,13.9,184.0,3828.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_27313,Yes,11/11/07,59.1,20.7,193.0,2872.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_93238,Yes,11/11/07,50.7,14.6,219.0,2757.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_76358,Yes,11/11/07,55.3,16.1,223.0,4081.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_53558,Yes,11/11/07,45.1,14.0,230.0,6299.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_53660,Yes,11/11/07,37.2,14.4,197.0,3381.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_40229,Yes,11/11/07,46.3,15.0,208.0,5440.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_42980,Yes,11/11/07,33.9,21.3,218.0,4302.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_48500,Yes,11/11/07,53.5,20.2,229.0,5141.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_78713,Yes,11/11/07,50.3,18.1,190.0,3565.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_32380,Yes,11/11/07,49.1,15.3,224.0,4824.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_16098,Yes,11/11/07,38.9,16.5,198.0,4892.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_14609,Yes,11/11/07,58.1,13.5,217.0,5828.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_11280,Yes,11/11/07,48.9,13.8,214.0,4297.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_87296,Yes,11/11/07,44.1,18.8,193.0,3478.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_2522,Yes,11/11/07,35.2,21.3,226.0,3888.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_83103,Yes,11/11/07,46.2,17.0,204.0,5297.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_69880,Yes,11/11/07,39.0,18.8,174.0,5174.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_11175,Yes,11/11/07,49.7,20.0,182.0,3439.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_10358,Yes,11/11/07,48.1,21.4,174.0,4233.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_8569,Yes,11/11/07,50.8,19.6,209.0,6250.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_10681,Yes,11/11/07,46.9,20.1,194.0,4442.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_31525,Yes,11/11/07,49.3,15.7,202.0,5834.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_31420,Yes,11/11/07,42.0,15.3,189.0,3602.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_24896,Yes,11/11/07,35.2,14.8,218.0,3534.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_70055,Yes,11/11/07,40.8,19.2,229.0,5917.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_44233,Yes,11/11/07,32.6,13.3,194.0,6160.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_2985,Yes,11/11/07,39.1,13.6,200.0,5740.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_63773,Yes,11/11/07,51.1,14.9,175.0,4481.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_22374,Yes,11/11/07,39.5,14.9,229.0,4350.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_29130,Yes,11/11/07,55.4,19.2,211.0,3893.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_21805,Yes,11/11/07,51.0,19.6,207.0,6005.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_87743,Yes,11/11/07,43.0,14.2,179.0,5713.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_54623,Yes,11/11/07,52.4,19.1,173.0,3977.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_86070,Yes,11/11/07,46.5,17.1,228.0,4852.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_21641,Yes,11/11/07,51.0,19.0,216.0,5362.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_16035,Yes,11/11/07,46.4,15.5,220.0,6168.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_77955,Yes,11/11/07,55.3,15.7,215.0,3606.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_34891,Yes,11/11/07,34.5,14.7,192.0,5332.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_62238,Yes,11/11/07,50.4,20.5,221.0,6151.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_7336,Yes,11/11/07,39.1,17.2,219.0,3628.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_35317,Yes,11/11/07,35.4,13.3,180.0,2937.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_11683,Yes,11/11/07,40.2,19.8,213.0,5890.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_56542,Yes,11/11/07,48.5,16.9,220.0,4959.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053716_7273,Yes,11/11/07,56.1,19.3,222.0,2733.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053716_63127,Yes,11/11/07,53.7,13.4,227.0,5162.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053716_39952,Yes,11/11/07,35.0,15.4,221.0,4148.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_7030,Yes,11/11/07,38.9,18.9,194.0,5197.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_64813,Yes,11/11/07,34.4,18.6,204.0,3380.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_92430,Yes,11/11/07,56.4,14.6,174.0,3956.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_73051,Yes,11/11/07,52.5,15.3,228.0,3244.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_15592,Yes,11/11/07,53.8,17.3,186.0,3564.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_84397,Yes,11/11/07,55.4,16.4,215.0,3828.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_55037,Yes,11/11/07,48.9,17.3,229.0,4250.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_61378,Yes,11/11/07,46.5,20.5,193.0,6262.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_46844,Yes,11/11/07,49.0,14.7,190.0,2949.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_87203,Yes,11/11/07,38.9,19.4,215.0,4701.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_1782,Yes,11/11/07,41.9,16.4,179.0,4528.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_64616,Yes,11/11/07,35.5,14.1,183.0,5369.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_62010,Yes,11/11/07,47.2,18.3,176.0,3738.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_77276,Yes,11/11/07,55.4,19.4,187.0,4198.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_48179,Yes,11/11/07,41.3,20.2,190.0,5412.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_53028,Yes,11/11/07,38.0,15.6,198.0,6266.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_67936,Yes,11/11/07,53.8,15.6,223.0,3538.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_17793,Yes,11/11/07,50.5,18.9,217.0,5280.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_23618,Yes,11/11/07,47.8,14.2,172.0,4507.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_70973,Yes,11/11/07,53.5,19.2,178.0,4183.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_45923,Yes,11/11/07,47.7,17.5,178.0,5013.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_30412,Yes,11/11/07,42.6,16.4,182.0,4548.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_41685,Yes,11/11/07,56.4,18.2,227.0,4597.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_3031,Yes,11/11/07,34.1,21.5,189.0,5905.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_30563,Yes,11/11/07,51.7,20.5,222.0,3094.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_61832,Yes,11/11/07,35.7,14.5,192.0,4825.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_35935,Yes,11/11/07,36.4,21.0,227.0,4592.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_55407,Yes,11/11/07,47.5,14.1,187.0,5684.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_91024,Yes,11/11/07,42.9,13.2,211.0,4829.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_31868,Yes,11/11/07,58.8,15.4,202.0,5543.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_72374,Yes,11/11/07,38.3,18.4,205.0,5852.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_25007,Yes,11/11/07,48.7,17.3,180.0,3707.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_7969,Yes,11/11/07,41.0,13.4,215.0,6034.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_20627,Yes,11/11/07,55.9,18.0,208.0,3980.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_37022,Yes,11/11/07,39.9,19.8,222.0,4669.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_52612,Yes,11/11/07,41.5,21.5,199.0,3111.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_98990,Yes,11/11/07,51.3,16.0,190.0,5403.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_83958,Yes,11/11/07,34.5,17.9,193.0,5597.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_95991,Yes,11/11/07,44.7,19.1,223.0,5770.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_34299,Yes,11/11/07,55.2,16.2,188.0,4996.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_49032,Yes,11/11/07,44.3,16.5,186.0,3221.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_99520,Yes,11/11/07,32.6,14.3,211.0,4067.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_80046,Yes,11/11/07,46.6,16.6,210.0,4446.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_10834,Yes,11/11/07,51.7,18.9,180.0,3468.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_37003,Yes,11/11/07,52.1,19.8,214.0,4740.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_71361,Yes,11/11/07,39.1,16.8,210.0,5509.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_46739,Yes,11/11/07,56.9,14.4,173.0,4613.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_9610,Yes,11/11/07,47.3,16.4,213.0,4963.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_1693,Yes,11/11/07,57.4,20.2,191.0,5802.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_20203,Yes,11/11/07,35.0,19.7,200.0,5626.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_32411,Yes,11/11/07,55.1,13.8,224.0,3936.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_62410,Yes,11/11/07,51.6,18.9,204.0,6052.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_28557,Yes,11/11/07,34.2,18.4,185.0,3400.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_38528,Yes,11/11/07,54.6,18.3,215.0,2728.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_9306,Yes,11/11/07,46.3,13.7,187.0,5610.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_97430,Yes,11/11/07,58.9,20.8,184.0,3892.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_50466,Yes,11/11/07,51.4,14.0,219.0,5986.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_99337,Yes,11/11/07,33.5,17.0,173.0,4740.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_89734,Yes,11/11/07,32.3,16.4,182.0,3853.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_68868,Yes,11/11/07,33.7,21.3,184.0,3790.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053717_4453,Yes,11/11/07,57.8,17.2,226.0,3433.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_66812,Yes,11/11/07,54.6,14.5,179.0,3232.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_90007,Yes,11/11/07,49.5,18.7,189.0,5114.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_76672,Yes,11/11/07,53.9,19.6,211.0,5044.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_44187,Yes,11/11/07,59.0,15.6,220.0,4289.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053717_42958,Yes,11/11/07,40.6,16.5,226.0,5795.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053717_83802,Yes,11/11/07,48.1,16.6,219.0,2758.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_82621,Yes,11/11/07,32.7,18.7,182.0,5522.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_18138,Yes,11/11/07,55.9,20.0,197.0,3083.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_11117,Yes,11/11/07,37.8,14.5,180.0,6160.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_80674,Yes,11/11/07,45.2,18.9,205.0,5652.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_23676,Yes,11/11/07,42.0,18.9,191.0,4030.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_33444,Yes,11/11/07,56.2,18.7,200.0,2749.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_87291,Yes,11/11/07,41.7,18.9,227.0,5411.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_42462,Yes,11/11/07,51.4,17.7,182.0,3887.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_96782,Yes,11/11/07,41.8,19.2,224.0,3553.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_220,Yes,11/11/07,48.6,15.9,228.0,3494.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_3565,Yes,11/11/07,52.4,18.8,200.0,4242.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_47896,Yes,11/11/07,58.0,16.2,182.0,2777.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_32941,Yes,11/11/07,52.1,20.2,203.0,3480.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_90314,Yes,11/11/07,39.7,13.7,217.0,6023.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_65824,Yes,11/11/07,56.4,19.6,214.0,6244.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_50313,Yes,11/11/07,58.8,18.3,210.0,6065.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_97981,Yes,11/11/07,32.8,19.3,203.0,5286.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_40151,Yes,11/11/07,39.6,19.5,187.0,5541.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_28193,Yes,11/11/07,50.5,14.4,176.0,4617.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_5816,Yes,11/11/07,57.3,18.8,176.0,3182.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_36591,Yes,11/11/07,56.6,14.0,230.0,3738.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_52810,Yes,11/11/07,39.9,18.9,186.0,4413.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_42539,Yes,11/11/07,36.6,15.9,205.0,5872.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_71979,Yes,11/11/07,33.7,18.7,212.0,3173.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_58196,Yes,11/11/07,39.3,18.9,200.0,3848.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_20200,Yes,11/11/07,57.6,19.2,175.0,3473.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_790,Yes,11/11/07,47.3,17.9,212.0,5956.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_1882,Yes,11/11/07,33.7,17.6,213.0,5586.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_97083,Yes,11/11/07,42.6,16.3,209.0,3141.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_76584,Yes,11/11/07,35.4,17.7,195.0,5044.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_20287,Yes,11/11/07,47.2,17.5,214.0,3290.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_30269,Yes,11/11/07,59.3,20.7,211.0,5100.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_39140,Yes,11/11/07,34.4,20.0,215.0,5178.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_86239,Yes,11/11/07,33.7,17.1,212.0,2945.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_94349,Yes,11/11/07,33.6,17.3,224.0,5047.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_29747,Yes,11/11/07,39.1,18.6,196.0,5617.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_45056,Yes,11/11/07,36.5,20.7,202.0,3428.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_44531,Yes,11/11/07,44.3,18.4,223.0,3661.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_89390,Yes,11/11/07,57.7,16.3,187.0,6261.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_39455,Yes,11/11/07,57.4,13.8,181.0,3384.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_33624,Yes,11/11/07,34.0,16.2,224.0,3215.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_88937,Yes,11/11/07,36.8,15.5,191.0,5270.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_36081,Yes,11/11/07,40.0,16.7,182.0,4673.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_61069,Yes,11/11/07,54.3,16.1,211.0,4708.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_17591,Yes,11/11/07,47.8,13.4,189.0,3745.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_70407,Yes,11/11/07,47.9,20.3,186.0,3922.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_76390,Yes,11/11/07,53.8,14.8,191.0,3959.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_26170,Yes,11/11/07,57.3,15.2,185.0,2729.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_76829,Yes,11/11/07,52.4,19.3,226.0,3860.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_49573,Yes,11/11/07,37.7,20.3,207.0,3998.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_81987,Yes,11/11/07,36.9,17.4,191.0,3501.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_78404,Yes,11/11/07,43.4,20.4,211.0,4047.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_9601,Yes,11/11/07,34.0,18.4,179.0,5266.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_24427,Yes,11/11/07,50.8,13.6,206.0,3565.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_10201,Yes,11/11/07,49.4,16.5,195.0,5041.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_16783,Yes,11/11/07,36.5,16.6,229.0,5598.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_36190,Yes,11/11/07,44.6,16.5,224.0,2866.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_17407,Yes,11/11/07,40.3,17.9,229.0,5420.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_84464,Yes,11/11/07,47.1,15.7,172.0,5036.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_28530,Yes,11/11/07,52.6,18.5,190.0,4160.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_90327,Yes,11/11/07,49.6,20.5,191.0,4407.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_59341,Yes,11/11/07,48.4,20.9,189.0,5732.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_86831,Yes,11/11/07,37.6,20.4,201.0,3504.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_20994,Yes,11/11/07,57.8,19.6,222.0,3633.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053718_82084,Yes,11/11/07,58.2,17.8,210.0,2934.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053718_22917,Yes,11/11/07,40.0,16.0,208.0,3848.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053718_28600,Yes,11/11/07,49.3,15.3,222.0,4596.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_81586,Yes,11/11/07,33.0,21.3,198.0,3664.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_98466,Yes,11/11/07,43.2,20.0,179.0,5055.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_76037,Yes,11/11/07,50.7,20.0,223.0,2704.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_56362,Yes,11/11/07,41.8,19.8,174.0,4061.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_42575,Yes,11/11/07,48.6,16.6,178.0,2997.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_6759,Yes,11/11/07,34.3,16.5,190.0,3402.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_1116,Yes,11/11/07,40.7,15.0,218.0,6272.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_31229,Yes,11/11/07,37.1,16.9,185.0,5946.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_18519,Yes,11/11/07,57.7,14.9,174.0,5930.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_37227,Yes,11/11/07,34.3,18.2,204.0,5737.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_7035,Yes,11/11/07,53.6,14.4,176.0,5057.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_1127,Yes,11/11/07,42.1,14.5,181.0,6162.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_25318,Yes,11/11/07,56.5,18.3,204.0,4308.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_49062,Yes,11/11/07,54.9,18.2,209.0,3128.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_80834,Yes,11/11/07,55.7,13.4,221.0,4811.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_8865,Yes,11/11/07,37.6,19.0,220.0,3361.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_62085,Yes,11/11/07,57.9,15.2,218.0,4573.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_28667,Yes,11/11/07,38.5,18.2,182.0,5636.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_60261,Yes,11/11/07,47.0,20.4,204.0,2887.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_44894,Yes,11/11/07,32.1,20.7,224.0,3018.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_56854,Yes,11/11/07,47.7,14.0,179.0,3828.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_57054,Yes,11/11/07,39.0,20.7,215.0,3949.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_15136,Yes,11/11/07,44.6,14.9,209.0,2930.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_29833,Yes,11/11/07,37.4,18.0,174.0,4412.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_35184,Yes,11/11/07,37.7,14.6,181.0,5287.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_46842,Yes,11/11/07,53.5,14.6,182.0,3238.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_86469,Yes,11/11/07,35.1,19.2,178.0,5200.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_64673,Yes,11/11/07,43.2,15.2,177.0,3639.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_95031,Yes,11/11/07,49.9,18.7,212.0,3269.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_56634,Yes,11/11/07,33.7,16.5,206.0,4461.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_81618,Yes,11/11/07,55.2,16.3,212.0,4040.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_73239,Yes,11/11/07,57.6,17.4,203.0,4023.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_40678,Yes,11/11/07,38.0,19.9,224.0,3734.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_330,Yes,11/11/07,40.6,19.7,201.0,6011.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_47207,Yes,11/11/07,40.1,19.1,199.0,4352.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_76733,Yes,11/11/07,59.1,19.8,188.0,3529.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_44176,Yes,11/11/07,38.0,18.9,229.0,3437.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_95224,Yes,11/11/07,45.9,17.0,206.0,5710.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_45391,Yes,11/11/07,42.5,15.5,194.0,4392.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_1656,Yes,11/11/07,51.9,19.3,194.0,3329.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_76850,Yes,11/11/07,35.6,13.8,200.0,5243.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_25441,Yes,11/11/07,55.7,16.6,192.0,4329.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_99168,Yes,11/11/07,33.3,15.3,193.0,4559.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_90301,Yes,11/11/07,53.9,18.4,199.0,4124.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_19282,Yes,11/11/07,43.5,15.4,198.0,4146.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_7038,Yes,11/11/07,48.4,18.4,186.0,4906.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_98400,Yes,11/11/07,47.0,20.7,216.0,6196.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_46871,Yes,11/11/07,51.9,18.0,185.0,4745.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_50800,Yes,11/11/07,53.2,17.3,214.0,5078.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_93020,Yes,11/11/07,36.7,18.7,190.0,3596.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_1186,Yes,11/11/07,53.3,18.5,189.0,3079.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_94127,Yes,11/11/07,46.9,17.2,193.0,4410.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_44877,Yes,11/11/07,53.5,16.8,193.0,3332.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_31591,Yes,11/11/07,39.3,20.9,185.0,3909.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_60615,Yes,11/11/07,43.3,18.2,208.0,4638.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_16061,Yes,11/11/07,44.5,16.4,224.0,3910.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_38680,Yes,11/11/07,42.3,14.2,201.0,6231.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_45259,Yes,11/11/07,54.6,18.8,220.0,5157.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_80499,Yes,11/11/07,59.2,15.3,184.0,5128.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_69323,Yes,11/11/07,44.8,14.9,201.0,4201.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_41906,Yes,11/11/07,48.5,19.3,195.0,4756.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053719_40294,Yes,11/11/07,36.9,19.8,230.0,5801.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_55969,Yes,11/11/07,39.9,15.3,231.0,3364.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_57276,Yes,11/11/07,45.6,18.2,207.0,4135.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053719_11997,Yes,11/11/07,55.2,16.1,227.0,3722.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_74504,Yes,11/11/07,50.1,14.8,201.0,4351.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053719_97754,Yes,11/11/07,37.4,18.8,212.0,3854.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_80333,Yes,11/11/07,51.6,20.1,194.0,3761.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_47774,Yes,11/11/07,45.4,15.2,214.0,5180.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_31579,Yes,11/11/07,40.2,18.5,190.0,4750.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_87228,Yes,11/11/07,42.4,13.8,179.0,4847.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_26289,Yes,11/11/07,37.3,15.3,191.0,3268.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_32974,Yes,11/11/07,50.6,20.2,185.0,2848.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_56917,Yes,11/11/07,51.5,13.7,227.0,4306.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_40743,Yes,11/11/07,44.6,14.4,208.0,3858.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_90797,Yes,11/11/07,41.9,19.7,213.0,3274.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_24192,Yes,11/11/07,39.6,20.6,190.0,3471.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_10560,Yes,11/11/07,46.4,21.2,183.0,3036.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_60946,Yes,11/11/07,38.2,14.7,190.0,4352.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_9646,Yes,11/11/07,50.7,15.5,194.0,5036.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_41221,Yes,11/11/07,40.5,17.7,226.0,5275.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_46359,Yes,11/11/07,44.0,16.5,212.0,3747.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_97969,Yes,11/11/07,34.8,16.6,221.0,3836.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_67377,Yes,11/11/07,38.5,16.8,223.0,4618.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_87957,Yes,11/11/07,56.3,13.7,184.0,3208.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_9338,Yes,11/11/07,48.6,21.3,224.0,5093.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_84973,Yes,11/11/07,46.0,13.7,173.0,2892.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_88483,Yes,11/11/07,53.8,13.4,172.0,5165.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_52652,Yes,11/11/07,32.6,20.7,198.0,3645.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_36007,Yes,11/11/07,49.6,16.5,190.0,5031.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_46405,Yes,11/11/07,44.7,21.3,208.0,3954.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_49667,Yes,11/11/07,54.1,13.3,180.0,2944.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_63864,Yes,11/11/07,42.0,16.9,230.0,3256.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_49998,Yes,11/11/07,39.1,16.8,196.0,3396.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_8400,Yes,11/11/07,49.3,14.7,214.0,3624.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_48521,Yes,11/11/07,32.8,15.2,229.0,3749.0,.,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_14670,Yes,11/11/07,46.6,17.9,181.0,4217.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_97231,Yes,11/11/07,56.2,15.6,172.0,4377.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_54494,Yes,11/11/07,46.4,20.2,201.0,5770.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_61209,Yes,11/11/07,58.1,13.7,190.0,5765.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_51765,Yes,11/11/07,35.4,15.8,195.0,5574.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_7881,Yes,11/11/07,39.3,18.9,207.0,3226.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_4581,Yes,11/11/07,53.9,18.8,181.0,5483.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_61178,Yes,11/11/07,35.6,13.8,220.0,3848.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_4602,Yes,11/11/07,58.4,17.4,214.0,4857.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_12386,Yes,11/11/07,41.5,20.8,204.0,5961.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_67260,Yes,11/11/07,45.7,13.4,210.0,5311.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_16934,Yes,11/11/07,53.8,15.2,186.0,3814.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_25404,Yes,11/11/07,55.1,18.2,192.0,3049.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_97774,Yes,11/11/07,52.8,14.1,198.0,3219.0,MALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_22818,Yes,11/11/07,40.2,18.4,221.0,3210.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_68495,Yes,11/11/07,53.0,15.1,231.0,6265.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_43622,Yes,11/11/07,44.3,16.9,198.0,3093.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_38442,Yes,11/11/07,39.3,19.1,204.0,5045.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_47487,Yes,11/11/07,57.5,16.8,226.0,3181.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_57431,Yes,11/11/07,49.3,17.9,181.0,4430.0,MALE,,,Not enough blood for isotopes.
+PAL0708,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_42015,Yes,11/11/07,34.5,15.9,226.0,3770.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_10271,Yes,11/11/07,47.4,18.6,180.0,5000.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_3507,Yes,11/11/07,43.0,15.7,173.0,2989.0,.,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_68136,Yes,11/11/07,51.1,16.8,194.0,5679.0,FEMALE,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_19467,Yes,11/11/07,53.6,19.4,228.0,5237.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Adelie Penguin (Pygoscelis adeliae),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_54056,Yes,11/11/07,36.0,18.3,184.0,5141.0,MALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_98119,Yes,11/11/07,51.7,20.3,228.0,4879.0,FEMALE,,,Not enough blood for isotopes.
+PAL0910,1,Gentoo penguin (Pygoscelis papua),Anvers,Dream,"Adult, 1 Egg Stage",GEN_1765906053720_54585,Yes,11/11/07,55.8,14.3,212.0,5264.0,.,,,Not enough blood for isotopes.
+PAL0708,1,Chinstrap penguin (Pygoscelis antarctica),Anvers,Torgersen,"Adult, 1 Egg Stage",GEN_1765906053720_41511,Yes,11/11/07,44.7,14.4,189.0,3904.0,FEMALE,,,Not enough blood for isotopes.
+PAL0809,1,Gentoo penguin (Pygoscelis papua),Anvers,Biscoe,"Adult, 1 Egg Stage",GEN_1765906053720_82430,Yes,11/11/07,48.3,14.3,201.0,2763.0,.,,,Not enough blood for isotopes.
