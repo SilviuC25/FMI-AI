@@ -1,0 +1,29 @@
+0 D 
+point 
+atom 
+cell 
+variable 
+
+byte - address - a positive integer number
+
+* keep it simple students - K.I.S.S. *
+
+8 bits inside of a byte
+from left to right, first is the most significant and the last is the least significant 
+
+nibble - half of a bite 
+
+1kb = 1024 bites 
+1mb = 2^10 kb
+1gb = 2^10 mb
+
+RAM = random access memory 
+motherboard = placa de baza 
+
+
+1 D 
+discont / continous 
+
+v[i] 
+discorder vs order 
+secvential search vs divide et impera
