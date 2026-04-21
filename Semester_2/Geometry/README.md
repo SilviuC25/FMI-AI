@@ -1,1 +1,1 @@
-
+Geometry Visualizers (Bonus Tasks): A collection of interactive mini-apps built to visualize weekly geometric concepts. Following the professor's "vibe coding" rule, each tool is a single-file solution (HTML/CSS/JS) developed with AI assistance.
