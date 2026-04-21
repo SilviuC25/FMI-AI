@@ -1,0 +1,4 @@
+1234567890
+Aceasta linie are mai mult de zece.
+Scurta
+01234567891234Depaseste limita de zece.
