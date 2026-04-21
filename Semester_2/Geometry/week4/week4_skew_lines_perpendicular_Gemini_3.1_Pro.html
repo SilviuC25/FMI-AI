@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Perpendicular of Two Skew Lines</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <style>
+        body { margin: 0; overflow: hidden; background: #0f172a; color: #f8fafc; font-family: ui-sans-serif, system-ui, sans-serif; }
+        
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        /* Custom sliders */
+        input[type=range] { width: 100%; cursor: pointer; height: 4px; border-radius: 2px; appearance: none; background: #334155; }
+        input[type=range]::-webkit-slider-thumb { appearance: none; width: 12px; height: 12px; border-radius: 50%; background: white; }
+        .slider-l1::-webkit-slider-thumb { background: #38bdf8; } /* Sky */
+        .slider-l2::-webkit-slider-thumb { background: #4ade80; } /* Green */
+
+        /* 3D Floating Labels */
+        .label-3d {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-family: monospace;
+            border: 1px solid rgba(255,255,255,0.2);
+            transform: translate(-50%, -100%);
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        .math-text { font-family: 'Courier New', Courier, monospace; }
+    </style>
+</head>
+<body>
+
+<div id="ui" class="absolute top-4 left-4 w-80 z-20 max-h-[95vh] overflow-y-auto pr-2 space-y-3 pb-4">
+    
+    <div class="glass-panel p-4 rounded-xl">
+        <h1 class="text-lg font-bold text-white leading-tight">Common Perpendicular of Skew Lines</h1>
+        <p class="text-xs text-slate-400 mt-1">Finding the unique orthogonal segment MN connecting two skew lines.</p>
+    </div>
+
+    <div class="glass-panel p-4 rounded-xl border-t-2 border-t-sky-500">
+        <h2 class="text-sm font-bold text-sky-400 mb-2">Line L₁ (Base A, Vector v)</h2>
+        
+        <div class="space-y-1 mb-2">
+            <div class="flex justify-between text-xs text-slate-400"><span>Point A(x, y)</span> <span id="val-a" class="math-text"></span></div>
+            <div class="flex gap-2">
+                <input type="range" id="ax" min="-5" max="5" step="0.5" value="-2" class="slider-l1">
+                <input type="range" id="ay" min="-5" max="5" step="0.5" value="2" class="slider-l1">
+            </div>
+        </div>
+        
+        <div class="space-y-1">
+            <div class="flex justify-between text-xs text-slate-400"><span>Dir. Vector v(x, y, z)</span> <span id="val-v" class="math-text"></span></div>
+            <div class="flex gap-2">
+                <input type="range" id="vx" min="-3" max="3" step="0.5" value="2" class="slider-l1">
+                <input type="range" id="vy" min="-3" max="3" step="0.5" value="1" class="slider-l1">
+                <input type="range" id="vz" min="-3" max="3" step="0.5" value="-1" class="slider-l1">
+            </div>
+        </div>
+    </div>
+
+    <div class="glass-panel p-4 rounded-xl border-t-2 border-t-green-500">
+        <h2 class="text-sm font-bold text-green-400 mb-2">Line L₂ (Base B, Vector w)</h2>
+        
+        <div class="space-y-1 mb-2">
+            <div class="flex justify-between text-xs text-slate-400"><span>Point B(x, y)</span> <span id="val-b" class="math-text"></span></div>
+            <div class="flex gap-2">
+                <input type="range" id="bx" min="-5" max="5" step="0.5" value="2" class="slider-l2">
+                <input type="range" id="by" min="-5" max="5" step="0.5" value="-2" class="slider-l2">
+            </div>
+        </div>
+        
+        <div class="space-y-1">
+            <div class="flex justify-between text-xs text-slate-400"><span>Dir. Vector w(x, y, z)</span> <span id="val-w" class="math-text"></span></div>
+            <div class="flex gap-2">
+                <input type="range" id="wx" min="-3" max="3" step="0.5" value="-1" class="slider-l2">
+                <input type="range" id="wy" min="-3" max="3" step="0.5" value="2" class="slider-l2">
+                <input type="range" id="wz" min="-3" max="3" step="0.5" value="1" class="slider-l2">
+            </div>
+        </div>
+    </div>
+
+    <div class="glass-panel p-4 rounded-xl">
+        <h3 class="text-xs font-bold uppercase text-slate-500 mb-2">Geometric Results</h3>
+        
+        <div id="status-skew" class="text-xs text-green-400 mb-3 p-2 bg-green-400/10 rounded border border-green-400/20">
+            Status: Lines are Skew
+        </div>
+        <div id="status-parallel" class="hidden text-xs text-rose-400 mb-3 p-2 bg-rose-400/10 rounded border border-rose-400/20">
+            Status: Lines are Parallel
+        </div>
+
+        <div class="space-y-2 text-xs text-slate-300">
+            <div class="flex justify-between"><span>Point M ∈ L₁:</span> <span id="res-m" class="math-text text-sky-400"></span></div>
+            <div class="flex justify-between"><span>Point N ∈ L₂:</span> <span id="res-n" class="math-text text-green-400"></span></div>
+        </div>
+
+        <div class="mt-3 p-3 bg-slate-900/60 rounded-lg text-center border border-red-500/30">
+            <div class="text-xs text-red-400 mb-1">Distance = d(L₁, L₂) = |MN|</div>
+            <div id="res-dist" class="text-xl font-bold text-white math-text">0.000</div>
+        </div>
+    </div>
+</div>
+
+<div id="labels-container">
+    <div id="lab-m" class="label-3d border-sky-500">M</div>
+    <div id="lab-n" class="label-3d border-green-500">N</div>
+    <div id="lab-l1" class="label-3d text-sky-400 border-none bg-transparent">L₁</div>
+    <div id="lab-l2" class="label-3d text-green-400 border-none bg-transparent">L₂</div>
+</div>
+
+<script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+    // --- Scene Setup ---
+    THREE.Object3D.DEFAULT_UP.set(0, 0, 1);
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0f172a);
+
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(12, 16, 10);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    document.body.appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+
+    // --- Lighting & Environment ---
+    scene.add(new THREE.AmbientLight(0xffffff, 0.7));
+    const dirLight = new THREE.DirectionalLight(0xffffff, 1);
+    dirLight.position.set(10, 10, 20);
+    scene.add(dirLight);
+
+    const grid = new THREE.GridHelper(20, 20, 0x334155, 0x1e293b);
+    grid.rotation.x = Math.PI / 2;
+    scene.add(grid);
+
+    // --- Geometric Objects ---
+    const materialL1 = new THREE.LineBasicMaterial({ color: 0x38bdf8, linewidth: 2 });
+    const materialL2 = new THREE.LineBasicMaterial({ color: 0x4ade80, linewidth: 2 });
+    const materialPerp = new THREE.LineBasicMaterial({ color: 0xef4444, linewidth: 3 });
+
+    const line1 = new THREE.Line(new THREE.BufferGeometry(), materialL1);
+    const line2 = new THREE.Line(new THREE.BufferGeometry(), materialL2);
+    const perpSegment = new THREE.Line(new THREE.BufferGeometry(), materialPerp);
+    
+    scene.add(line1, line2, perpSegment);
+
+    // Intersection Points (M and N)
+    const sphereGeo = new THREE.SphereGeometry(0.15, 16, 16);
+    const meshM = new THREE.Mesh(sphereGeo, new THREE.MeshBasicMaterial({ color: 0x38bdf8 }));
+    const meshN = new THREE.Mesh(sphereGeo, new THREE.MeshBasicMaterial({ color: 0x4ade80 }));
+    scene.add(meshM, meshN);
+
+    // Right-angle markers
+    const markerMat = new THREE.LineBasicMaterial({ color: 0xffffff, opacity: 0.6, transparent: true });
+    const marker1 = new THREE.Line(new THREE.BufferGeometry(), markerMat);
+    const marker2 = new THREE.Line(new THREE.BufferGeometry(), markerMat);
+    scene.add(marker1, marker2);
+
+    // --- Math & Logic ---
+    function updateScene() {
+        // Read UI inputs
+        const A = new THREE.Vector3(
+            parseFloat(document.getElementById('ax').value),
+            parseFloat(document.getElementById('ay').value),
+            0 // Fixing Z of base points to 0 for simplicity of interaction
+        );
+        const v = new THREE.Vector3(
+            parseFloat(document.getElementById('vx').value),
+            parseFloat(document.getElementById('vy').value),
+            parseFloat(document.getElementById('vz').value)
+        );
+
+        const B = new THREE.Vector3(
+            parseFloat(document.getElementById('bx').value),
+            parseFloat(document.getElementById('by').value),
+            0
+        );
+        const w = new THREE.Vector3(
+            parseFloat(document.getElementById('wx').value),
+            parseFloat(document.getElementById('wy').value),
+            parseFloat(document.getElementById('wz').value)
+        );
+
+        // Update UI text
+        const fmt = (vec) => `[${vec.x.toFixed(1)}, ${vec.y.toFixed(1)}, ${vec.z.toFixed(1)}]`;
+        document.getElementById('val-a').innerText = `[${A.x.toFixed(1)}, ${A.y.toFixed(1)}]`;
+        document.getElementById('val-b').innerText = `[${B.x.toFixed(1)}, ${B.y.toFixed(1)}]`;
+        document.getElementById('val-v').innerText = fmt(v);
+        document.getElementById('val-w').innerText = fmt(w);
+
+        // Render Infinite Lines (drawing large segments)
+        const extendLine = (base, dir) => [
+            base.clone().add(dir.clone().multiplyScalar(-10)),
+            base.clone().add(dir.clone().multiplyScalar(10))
+        ];
+        
+        line1.geometry.dispose();
+        line1.geometry = new THREE.BufferGeometry().setFromPoints(extendLine(A, v));
+        
+        line2.geometry.dispose();
+        line2.geometry = new THREE.BufferGeometry().setFromPoints(extendLine(B, w));
+
+        // --- Core Math: Finding M and N ---
+        // Let M = A + t1*v
+        // Let N = B + t2*w
+        // We want MN to be orthogonal to both v and w.
+        // MN = N - M = (B - A) + t2*w - t1*v
+        // MN • v = 0 => t1(v•v) - t2(w•v) = (B-A)•v
+        // MN • w = 0 => t1(v•w) - t2(w•w) = (B-A)•w
+
+        const AB = new THREE.Vector3().subVectors(B, A);
+        const dot_vv = v.dot(v);
+        const dot_ww = w.dot(w);
+        const dot_vw = v.dot(w);
+        const dot_ABv = AB.dot(v);
+        const dot_ABw = AB.dot(w);
+
+        // System determinant
+        const D = (dot_vv * dot_ww) - (dot_vw * dot_vw);
+
+        const statusSkew = document.getElementById('status-skew');
+        const statusParallel = document.getElementById('status-parallel');
+
+        let M = new THREE.Vector3();
+        let N = new THREE.Vector3();
+
+        if (D < 0.0001) {
+            // Lines are parallel or collinear
+            statusSkew.classList.add('hidden');
+            statusParallel.classList.remove('hidden');
+            
+            // Just pick M = A, and project A onto L2 to find N
+            M.copy(A);
+            const t2 = dot_ABw / dot_ww;
+            N.copy(B).add(w.clone().multiplyScalar(t2));
+        } else {
+            // Lines are Skew
+            statusParallel.classList.add('hidden');
+            statusSkew.classList.remove('hidden');
+
+            const t1 = (dot_ABv * dot_ww - dot_ABw * dot_vw) / D;
+            const t2 = (dot_ABv * dot_vw - dot_ABw * dot_vv) / -D; // Note the sign adjustment
+
+            M.copy(A).add(v.clone().multiplyScalar(t1));
+            N.copy(B).add(w.clone().multiplyScalar(t2));
+        }
+
+        // Move Spheres
+        meshM.position.copy(M);
+        meshN.position.copy(N);
+
+        // Draw Perpendicular Segment
+        perpSegment.geometry.dispose();
+        perpSegment.geometry = new THREE.BufferGeometry().setFromPoints([M, N]);
+
+        // Right Angle Markers Logic
+        const createMarker = (marker, pCenter, dirLine, dirPerp) => {
+            if(dirPerp.lengthSq() < 0.01) { marker.visible = false; return; }
+            marker.visible = true;
+            
+            const u1 = dirLine.clone().normalize().multiplyScalar(0.4);
+            const u2 = dirPerp.clone().normalize().multiplyScalar(0.4);
+            
+            const p1 = pCenter.clone().add(u1);
+            const p2 = pCenter.clone().add(u1).add(u2);
+            const p3 = pCenter.clone().add(u2);
+            
+            marker.geometry.dispose();
+            marker.geometry = new THREE.BufferGeometry().setFromPoints([p1, p2, p3]);
+        };
+
+        const dirMN = new THREE.Vector3().subVectors(N, M);
+        const dirNM = new THREE.Vector3().subVectors(M, N);
+        
+        createMarker(marker1, M, v, dirMN);
+        createMarker(marker2, N, w, dirNM);
+
+        // Update Text Results
+        document.getElementById('res-m').innerText = fmt(M);
+        document.getElementById('res-n').innerText = fmt(N);
+        document.getElementById('res-dist').innerText = M.distanceTo(N).toFixed(3);
+
+        // Export globally for labels
+        window.dynamicPoints = { M, N, 
+            L1: A.clone().add(v.clone().multiplyScalar(4)), 
+            L2: B.clone().add(w.clone().multiplyScalar(4)) 
+        };
+    }
+
+    // --- Sync HTML Labels ---
+    function syncLabels() {
+        if(!window.dynamicPoints) return;
+        const { M, N, L1, L2 } = window.dynamicPoints;
+        
+        const labels = [
+            { id: 'lab-m', pos: M },
+            { id: 'lab-n', pos: N },
+            { id: 'lab-l1', pos: L1 },
+            { id: 'lab-l2', pos: L2 }
+        ];
+
+        labels.forEach(l => {
+            const el = document.getElementById(l.id);
+            const vec = l.pos.clone().project(camera);
+            const x = (vec.x * 0.5 + 0.5) * window.innerWidth;
+            const y = (vec.y * -0.5 + 0.5) * window.innerHeight;
+            el.style.left = `${x}px`;
+            el.style.top = `${y}px`;
+            el.style.opacity = vec.z < 1 ? 1 : 0;
+        });
+    }
+
+    // --- Listeners & Loop ---
+    document.querySelectorAll('input').forEach(el => el.addEventListener('input', updateScene));
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    updateScene();
+    function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        syncLabels();
+        renderer.render(scene, camera);
+    }
+    animate();
+</script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cross Product Visualization</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <style>
+        body { margin: 0; overflow: hidden; background: #0f172a; color: #f8fafc; font-family: ui-sans-serif, system-ui, sans-serif; }
+        
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        input[type=range] { width: 100%; cursor: pointer; height: 4px; border-radius: 2px; appearance: none; background: #334155; }
+        input[type=range]::-webkit-slider-thumb { appearance: none; width: 14px; height: 14px; border-radius: 50%; background: white; }
+        
+        .slider-a::-webkit-slider-thumb { background: #38bdf8; } /* Sky 400 */
+        .slider-b::-webkit-slider-thumb { background: #4ade80; } /* Green 400 */
+
+        /* 3D Floating Labels */
+        .label-3d {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: bold;
+            font-family: monospace;
+            border: 1px solid;
+            transform: translate(-50%, -100%);
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        .matrix-box {
+            font-family: 'Courier New', Courier, monospace;
+            display: inline-block;
+            text-align: center;
+            border-left: 2px solid #94a3b8;
+            border-right: 2px solid #94a3b8;
+            padding: 0 8px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+<div id="ui" class="absolute top-5 left-5 w-80 z-20 space-y-4 max-h-screen overflow-y-auto pb-5">
+    
+    <div class="glass-panel p-5 rounded-2xl">
+        <h1 class="text-xl font-bold text-white mb-1">Cross Product (a × b)</h1>
+        <p class="text-xs text-slate-400">The result is a vector orthogonal to both, with magnitude equal to the parallelogram area.</p>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl">
+        <h2 class="text-sm font-bold text-sky-400 mb-3 flex justify-between">
+            <span>Vector a</span>
+            <span id="label-val-a" class="font-mono"></span>
+        </h2>
+        <div class="space-y-3">
+            <div class="flex items-center gap-2"><span class="text-xs text-slate-400 w-4">X</span> <input type="range" id="ax" min="-5" max="5" step="0.5" value="3" class="slider-a"></div>
+            <div class="flex items-center gap-2"><span class="text-xs text-slate-400 w-4">Y</span> <input type="range" id="ay" min="-5" max="5" step="0.5" value="0" class="slider-a"></div>
+            <div class="flex items-center gap-2"><span class="text-xs text-slate-400 w-4">Z</span> <input type="range" id="az" min="-5" max="5" step="0.5" value="2" class="slider-a"></div>
+        </div>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl">
+        <h2 class="text-sm font-bold text-green-400 mb-3 flex justify-between">
+            <span>Vector b</span>
+            <span id="label-val-b" class="font-mono"></span>
+        </h2>
+        <div class="space-y-3">
+            <div class="flex items-center gap-2"><span class="text-xs text-slate-400 w-4">X</span> <input type="range" id="bx" min="-5" max="5" step="0.5" value="1" class="slider-b"></div>
+            <div class="flex items-center gap-2"><span class="text-xs text-slate-400 w-4">Y</span> <input type="range" id="by" min="-5" max="5" step="0.5" value="4" class="slider-b"></div>
+            <div class="flex items-center gap-2"><span class="text-xs text-slate-400 w-4">Z</span> <input type="range" id="bz" min="-5" max="5" step="0.5" value="0" class="slider-b"></div>
+        </div>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl text-sm">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Determinant Calculation</h3>
+        
+        <div class="flex justify-center mb-4 text-slate-300">
+            <div class="matrix-box">
+                <div>i &nbsp; j &nbsp; k</div>
+                <div id="mat-a" class="text-sky-400">3 &nbsp; 0 &nbsp; 2</div>
+                <div id="mat-b" class="text-green-400">1 &nbsp; 4 &nbsp; 0</div>
+            </div>
+        </div>
+
+        <div class="bg-slate-900/50 p-3 rounded-lg border border-red-500/30 text-center mb-3">
+            <div class="text-xs text-red-400 mb-1">Resulting Vector c = a × b</div>
+            <div id="label-val-c" class="text-lg font-bold text-white font-mono"></div>
+        </div>
+
+        <div class="flex justify-between items-center text-slate-300 bg-slate-800/50 px-3 py-2 rounded">
+            <span>Area = ||c||</span>
+            <span id="label-area" class="font-mono font-bold text-yellow-400"></span>
+        </div>
+    </div>
+</div>
+
+<div id="labels-container">
+    <div id="dom-label-a" class="label-3d border-sky-500">a</div>
+    <div id="dom-label-b" class="label-3d border-green-500">b</div>
+    <div id="dom-label-c" class="label-3d border-red-500" style="background: rgba(239, 68, 68, 0.2);">c = a × b</div>
+</div>
+
+<script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+    // --- 1. Scene Setup ---
+    THREE.Object3D.DEFAULT_UP.set(0, 0, 1); // Set Z as Up vector
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0f172a);
+
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(12, -15, 10);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    document.body.appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+
+    // --- 2. Lighting & Grid ---
+    scene.add(new THREE.AmbientLight(0xffffff, 0.8));
+    const dirLight = new THREE.DirectionalLight(0xffffff, 1);
+    dirLight.position.set(10, 10, 20);
+    scene.add(dirLight);
+
+    const grid = new THREE.GridHelper(20, 20, 0x334155, 0x1e293b);
+    grid.rotation.x = Math.PI / 2; // Flat on XY plane
+    scene.add(grid);
+
+    // Axes
+    const axesHelper = new THREE.AxesHelper(10);
+    scene.add(axesHelper);
+
+    // --- 3. Geometric Objects ---
+    const origin = new THREE.Vector3(0, 0, 0);
+
+    // Colors
+    const colorA = 0x38bdf8; // Blue
+    const colorB = 0x4ade80; // Green
+    const colorC = 0xef4444; // Red
+    const colorArea = 0xfacc15; // Yellow
+
+    // Arrow Helpers for Vectors
+    const arrowA = new THREE.ArrowHelper(new THREE.Vector3(1,0,0), origin, 1, colorA, 0.4, 0.2);
+    const arrowB = new THREE.ArrowHelper(new THREE.Vector3(0,1,0), origin, 1, colorB, 0.4, 0.2);
+    const arrowC = new THREE.ArrowHelper(new THREE.Vector3(0,0,1), origin, 1, colorC, 0.5, 0.25);
+    scene.add(arrowA, arrowB, arrowC);
+
+    // Parallelogram Mesh (Area visualization)
+    const polyGeo = new THREE.BufferGeometry();
+    const polyMat = new THREE.MeshBasicMaterial({ 
+        color: colorArea, 
+        side: THREE.DoubleSide, 
+        transparent: true, 
+        opacity: 0.25 
+    });
+    const parallelogram = new THREE.Mesh(polyGeo, polyMat);
+    scene.add(parallelogram);
+
+    // Parallelogram Edges
+    const edgesMat = new THREE.LineDashedMaterial({ color: colorArea, dashSize: 0.2, gapSize: 0.2 });
+    const edgeLines = new THREE.Line(new THREE.BufferGeometry(), edgesMat);
+    scene.add(edgeLines);
+
+    // Orthogonal Markers (Right angle squares)
+    const markerMat = new THREE.LineBasicMaterial({ color: 0xffffff, opacity: 0.5, transparent: true });
+    const markerAC = new THREE.Line(new THREE.BufferGeometry(), markerMat);
+    const markerBC = new THREE.Line(new THREE.BufferGeometry(), markerMat);
+    scene.add(markerAC, markerBC);
+
+    // --- 4. Logic & Update Function ---
+    function updateScene() {
+        // Read input values
+        const a = new THREE.Vector3(
+            parseFloat(document.getElementById('ax').value),
+            parseFloat(document.getElementById('ay').value),
+            parseFloat(document.getElementById('az').value)
+        );
+        
+        const b = new THREE.Vector3(
+            parseFloat(document.getElementById('bx').value),
+            parseFloat(document.getElementById('by').value),
+            parseFloat(document.getElementById('bz').value)
+        );
+
+        // Calculate Cross Product
+        const c = new THREE.Vector3().crossVectors(a, b);
+        const area = c.length();
+
+        // Update Arrow A
+        if (a.length() > 0.001) {
+            arrowA.setDirection(a.clone().normalize());
+            arrowA.setLength(a.length(), 0.4, 0.2);
+            arrowA.visible = true;
+        } else arrowA.visible = false;
+
+        // Update Arrow B
+        if (b.length() > 0.001) {
+            arrowB.setDirection(b.clone().normalize());
+            arrowB.setLength(b.length(), 0.4, 0.2);
+            arrowB.visible = true;
+        } else arrowB.visible = false;
+
+        // Update Arrow C (Cross Product)
+        if (area > 0.001) {
+            arrowC.setDirection(c.clone().normalize());
+            arrowC.setLength(area, 0.5, 0.25);
+            arrowC.visible = true;
+        } else arrowC.visible = false;
+
+        // Update Parallelogram Geometry
+        const p1 = origin;
+        const p2 = a;
+        const p3 = new THREE.Vector3().addVectors(a, b);
+        const p4 = b;
+
+        // Two triangles to form a quad
+        const vertices = new Float32Array([
+            p1.x, p1.y, p1.z,  p2.x, p2.y, p2.z,  p3.x, p3.y, p3.z, // Triangle 1
+            p1.x, p1.y, p1.z,  p3.x, p3.y, p3.z,  p4.x, p4.y, p4.z  // Triangle 2
+        ]);
+        parallelogram.geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
+        
+        // Update Dashed Edges
+        edgeLines.geometry.dispose();
+        edgeLines.geometry = new THREE.BufferGeometry().setFromPoints([p2, p3, p4]);
+        edgeLines.computeLineDistances();
+
+        // Update Orthogonal Right-Angle Markers (Size: 0.6 units)
+        const updateMarker = (marker, v1, v2) => {
+            if (v1.length() < 0.1 || v2.length() < 0.1) {
+                marker.visible = false;
+                return;
+            }
+            marker.visible = true;
+            const u1 = v1.clone().normalize().multiplyScalar(0.6);
+            const u2 = v2.clone().normalize().multiplyScalar(0.6);
+            const corner = new THREE.Vector3().addVectors(u1, u2);
+            marker.geometry.dispose();
+            marker.geometry = new THREE.BufferGeometry().setFromPoints([u1, corner, u2]);
+        };
+        updateMarker(markerAC, a, c);
+        updateMarker(markerBC, b, c);
+
+        // Update DOM Math Text
+        const formatCoord = (v) => `[${v.x.toFixed(1)}, ${v.y.toFixed(1)}, ${v.z.toFixed(1)}]`;
+        const pad = (n) => n.toString().padStart(4, '\xa0'); // Pad with non-breaking spaces
+        
+        document.getElementById('label-val-a').innerText = formatCoord(a);
+        document.getElementById('label-val-b').innerText = formatCoord(b);
+        document.getElementById('label-val-c').innerText = formatCoord(c);
+        document.getElementById('label-area').innerText = area.toFixed(2);
+        
+        document.getElementById('mat-a').innerHTML = `${pad(a.x)} ${pad(a.y)} ${pad(a.z)}`;
+        document.getElementById('mat-b').innerHTML = `${pad(b.x)} ${pad(b.y)} ${pad(b.z)}`;
+
+        // Attach vectors to window for label positioning
+        window.activeVectors = { a, b, c };
+    }
+
+    // --- 5. Screen Space Labels ---
+    function syncFloatingLabels() {
+        if (!window.activeVectors) return;
+        const { a, b, c } = window.activeVectors;
+        
+        const labels = [
+            { id: 'dom-label-a', pos: a, visible: a.length() > 0 },
+            { id: 'dom-label-b', pos: b, visible: b.length() > 0 },
+            { id: 'dom-label-c', pos: c, visible: c.length() > 0 }
+        ];
+
+        labels.forEach(l => {
+            const domEl = document.getElementById(l.id);
+            if (!l.visible) {
+                domEl.style.opacity = 0;
+                return;
+            }
+            // Project 3D coordinate to 2D screen coordinate
+            const vector = l.pos.clone().project(camera);
+            const x = (vector.x * 0.5 + 0.5) * window.innerWidth;
+            const y = (vector.y * -0.5 + 0.5) * window.innerHeight;
+            
+            domEl.style.left = `${x}px`;
+            domEl.style.top = `${y}px`;
+            // Hide if behind camera
+            domEl.style.opacity = vector.z < 1 ? 1 : 0;
+        });
+    }
+
+    // --- 6. Event Listeners & Loop ---
+    document.querySelectorAll('input').forEach(el => el.addEventListener('input', updateScene));
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    updateScene();
+
+    function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        syncFloatingLabels();
+        renderer.render(scene, camera);
+    }
+    animate();
+</script>
+</body>
+</html>

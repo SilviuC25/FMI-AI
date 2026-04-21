@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cartesian Coordinate System</title>
+    <style>
+        :root {
+            /* Color Palette for Educational Clarity */
+            --color-x: #ef4444; /* Red for X-axis */
+            --color-y: #22c55e; /* Green for Y-axis */
+            --color-z: #3b82f6; /* Blue for Z-axis */
+            --bg-canvas: #f1f5f9;
+            --ui-white: rgba(255, 255, 255, 0.92);
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-canvas);
+        }
+
+        /* User Interface Panel */
+        #ui-panel {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--ui-white);
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            width: 320px;
+            backdrop-filter: blur(10px);
+            z-index: 100;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        h2 { margin: 0 0 8px 0; font-size: 1.25rem; color: #1e293b; }
+        p.description { margin: 0 0 20px 0; font-size: 0.85rem; color: #64748b; line-height: 1.4; }
+
+        .slider-group { margin-bottom: 18px; }
+        label { 
+            display: flex; 
+            justify-content: space-between; 
+            font-weight: 700; 
+            font-size: 0.9rem; 
+            margin-bottom: 6px; 
+        }
+        
+        input[type=range] { 
+            width: 100%; 
+            cursor: pointer; 
+            accent-color: #64748b; 
+        }
+
+        /* Color-coded classes */
+        .x-label { color: var(--color-x); }
+        .y-label { color: var(--color-y); }
+        .z-label { color: var(--color-z); }
+
+        /* Real-time Coordinate Readout */
+        .coordinate-display {
+            background: #0f172a;
+            color: #f8fafc;
+            padding: 16px;
+            border-radius: 12px;
+            text-align: center;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 1.3rem;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            border: 1px solid #334155;
+        }
+
+        .btn-reset {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 8px;
+            background: #334155;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-reset:hover { 
+            background: #1e293b; 
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        /* Dynamic 3D Floating Labels */
+        .floating-label {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 800;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+            transition: opacity 0.2s;
+            z-index: 10;
+        }
+
+        #interaction-hint {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255,255,255,0.7);
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            color: #475569;
+            border: 1px solid rgba(0,0,0,0.05);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="ui-panel">
+        <h2>Coordinate System</h2>
+        <p class="description">Manipulate the sliders to observe how orthogonal projections define point P($x, y, z$).</p>
+        
+        <div class="slider-group">
+            <label class="x-label">X Axis (Abscissa) <span id="val-x">5</span></label>
+            <input type="range" id="slider-x" min="-10" max="10" step="1" value="5">
+        </div>
+
+        <div class="slider-group">
+            <label class="y-label">Y Axis (Ordinate) <span id="val-y">6</span></label>
+            <input type="range" id="slider-y" min="-10" max="10" step="1" value="6">
+        </div>
+
+        <div class="slider-group">
+            <label class="z-label">Z Axis (Applicate) <span id="val-z">4</span></label>
+            <input type="range" id="slider-z" min="-10" max="10" step="1" value="4">
+        </div>
+
+        <div class="coordinate-display">
+            P(<span class="x-label" id="disp-x">5</span>, <span class="y-label" id="disp-y">6</span>, <span class="z-label" id="disp-z">4</span>)
+        </div>
+
+        <button class="btn-reset" id="reset-button">Reset Camera</button>
+    </div>
+
+    <div id="interaction-hint">Rotate: Left Click | Zoom: Scroll | Pan: Right Click</div>
+
+    <div id="labels-overlay">
+        <div id="label-p" class="floating-label" style="background: #f59e0b; color: white;">Point P</div>
+        <div id="label-x" class="floating-label x-label">X Axis</div>
+        <div id="label-y" class="floating-label y-label">Y Axis</div>
+        <div id="label-z" class="floating-label z-label">Z Axis</div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+        // 1. SCENE SETUP
+        // We set the standard mathematical "UP" as the Z-axis.
+        THREE.Object3D.DEFAULT_UP.set(0, 0, 1);
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0xf1f5f9);
+
+        // 2. CAMERA AND RENDERER
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const initialCameraPos = { x: 16, y: 16, z: 12 };
+        camera.position.set(initialCameraPos.x, initialCameraPos.y, initialCameraPos.z);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        document.body.appendChild(renderer.domElement);
+
+        // 3. INTERACTION CONTROLS
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.05;
+
+        // 4. LIGHTING
+        scene.add(new THREE.AmbientLight(0xffffff, 0.7));
+        const directionalLight = new THREE.PointLight(0xffffff, 1.5);
+        directionalLight.position.set(15, 15, 25);
+        scene.add(directionalLight);
+
+        // 5. GRID AND AXES
+        // Grid on the XY plane (z=0)
+        const planeGrid = new THREE.GridHelper(20, 20, 0xccd6e0, 0xe2e8f0);
+        planeGrid.rotation.x = Math.PI / 2;
+        scene.add(planeGrid);
+
+        const createAxisLine = (points, color) => {
+            const material = new THREE.LineBasicMaterial({ color: color, linewidth: 2 });
+            const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            scene.add(new THREE.Line(geometry, material));
+        };
+
+        // Static Axes Lines
+        createAxisLine([new THREE.Vector3(-10.5,0,0), new THREE.Vector3(10.5,0,0)], 0xef4444);
+        createAxisLine([new THREE.Vector3(0,-10.5,0), new THREE.Vector3(0,10.5,0)], 0x22c55e);
+        createAxisLine([new THREE.Vector3(0,0,-10.5), new THREE.Vector3(0,0,10.5)], 0x3b82f6);
+
+        // 6. GEOMETRIC OBJECTS
+        // The main point P (Sphere with glow)
+        const pointGeometry = new THREE.SphereGeometry(0.5, 32, 32);
+        const pointMaterial = new THREE.MeshStandardMaterial({ 
+            color: 0xf59e0b, 
+            emissive: 0xf59e0b, 
+            emissiveIntensity: 0.6,
+            roughness: 0.2
+        });
+        const pointMesh = new THREE.Mesh(pointGeometry, pointMaterial);
+        scene.add(pointMesh);
+
+        // Projection Lines (Dashed)
+        const createDashedMaterial = (color) => new THREE.LineDashedMaterial({ 
+            color: color, dashSize: 0.4, gapSize: 0.2, linewidth: 2 
+        });
+
+        const projectionLines = {
+            toYZ: new THREE.Line(new THREE.BufferGeometry(), createDashedMaterial(0xef4444)), // Parallel to X
+            toXZ: new THREE.Line(new THREE.BufferGeometry(), createDashedMaterial(0x22c55e)), // Parallel to Y
+            toXY: new THREE.Line(new THREE.BufferGeometry(), createDashedMaterial(0x3b82f6)), // Parallel to Z
+            baseX: new THREE.Line(new THREE.BufferGeometry(), createDashedMaterial(0x94a3b8)),
+            baseY: new THREE.Line(new THREE.BufferGeometry(), createDashedMaterial(0x94a3b8))
+        };
+        Object.values(projectionLines).forEach(line => scene.add(line));
+
+        // 7. CORE LOGIC: UPDATE POSITIONS
+        function updateSceneElements() {
+            const x = parseInt(document.getElementById('slider-x').value);
+            const y = parseInt(document.getElementById('slider-y').value);
+            const z = parseInt(document.getElementById('slider-z').value);
+
+            // Update UI Labels
+            document.getElementById('val-x').innerText = x;
+            document.getElementById('val-y').innerText = y;
+            document.getElementById('val-z').innerText = z;
+            document.getElementById('disp-x').innerText = x;
+            document.getElementById('disp-y').innerText = y;
+            document.getElementById('disp-z').innerText = z;
+
+            // Move the Point
+            pointMesh.position.set(x, y, z);
+
+            // Helper to update line geometry
+            const setLineCoords = (line, p1, p2) => {
+                line.geometry.dispose();
+                line.geometry = new THREE.BufferGeometry().setFromPoints([p1, p2]);
+                line.computeLineDistances();
+            };
+
+            // Main Projections from Point P to Planes
+            setLineCoords(projectionLines.toYZ, new THREE.Vector3(x, y, z), new THREE.Vector3(0, y, z));
+            setLineCoords(projectionLines.toXZ, new THREE.Vector3(x, y, z), new THREE.Vector3(x, 0, z));
+            setLineCoords(projectionLines.toXY, new THREE.Vector3(x, y, z), new THREE.Vector3(x, y, 0));
+            
+            // Base Projections on the XY plane to define coordinates on axes
+            setLineCoords(projectionLines.baseX, new THREE.Vector3(x, y, 0), new THREE.Vector3(0, y, 0));
+            setLineCoords(projectionLines.baseY, new THREE.Vector3(x, y, 0), new THREE.Vector3(x, 0, 0));
+        }
+
+        // 8. SCREEN-SPACE PROJECTION FOR LABELS
+        function syncHTMLFloatingLabels() {
+            const labelSpecs = [
+                { id: 'label-p', worldPos: pointMesh.position.clone() },
+                { id: 'label-x', worldPos: new THREE.Vector3(11, 0, 0) },
+                { id: 'label-y', worldPos: new THREE.Vector3(0, 11, 0) },
+                { id: 'label-z', worldPos: new THREE.Vector3(0, 0, 11) }
+            ];
+
+            labelSpecs.forEach(spec => {
+                const vector = spec.worldPos.project(camera);
+                
+                // Convert normalized device coordinates to CSS pixels
+                const x = (vector.x * 0.5 + 0.5) * window.innerWidth;
+                const y = (vector.y * -0.5 + 0.5) * window.innerHeight;
+                
+                const element = document.getElementById(spec.id);
+                element.style.left = `${x}px`;
+                element.style.top = `${y}px`;
+                
+                // Hide label if it is behind the camera
+                element.style.opacity = vector.z < 1 ? 1 : 0;
+            });
+        }
+
+        // 9. EVENT LISTENERS
+        ['slider-x', 'slider-y', 'slider-z'].forEach(id => {
+            document.getElementById(id).addEventListener('input', updateSceneElements);
+        });
+
+        document.getElementById('reset-button').addEventListener('click', () => {
+            camera.position.set(initialCameraPos.x, initialCameraPos.y, initialCameraPos.z);
+            controls.target.set(0, 0, 0);
+            controls.update();
+        });
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // 10. ANIMATION LOOP
+        updateSceneElements();
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update(); // Smoothly updates camera rotation
+            syncHTMLFloatingLabels(); // Matches HTML overlay to 3D scene
+            renderer.render(scene, camera);
+        }
+        animate();
+    </script>
+</body>
+</html>

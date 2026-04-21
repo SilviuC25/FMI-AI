@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Euclidean Distance Visualizer</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <style>
+        body { margin: 0; overflow: hidden; background: #0f172a; color: #f8fafc; }
+        canvas { display: block; }
+        
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        input[type=range] { cursor: pointer; accent-color: #38bdf8; }
+        
+        /* Floating Labels for 3D points */
+        .label-3d {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(15, 23, 42, 0.9);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-family: monospace;
+            border: 1px solid rgba(255,255,255,0.2);
+            transform: translate(-50%, -100%);
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        .math-font { font-family: 'Times New Roman', Times, serif; font-style: italic; }
+    </style>
+</head>
+<body>
+
+<div id="ui" class="absolute top-5 left-5 w-80 z-20 space-y-4">
+    
+    <div class="glass-panel p-5 rounded-2xl shadow-2xl">
+        <h1 class="text-xl font-bold text-sky-400">Distance in 3D Space</h1>
+        <p class="text-xs text-slate-400 mt-1">Visualizing Euclidean distance using the Pythagorean theorem in three dimensions.</p>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl shadow-2xl space-y-4">
+        <div>
+            <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-bold text-sky-400">Point P(x₁, y₁, z₁)</span>
+            </div>
+            <div class="space-y-1">
+                <input type="range" min="-8" max="8" step="0.1" value="4" id="px" class="w-full">
+                <input type="range" min="-8" max="8" step="0.1" value="5" id="py" class="w-full">
+                <input type="range" min="-8" max="8" step="0.1" value="3" id="pz" class="w-full">
+            </div>
+        </div>
+
+        <hr class="border-slate-700">
+
+        <div>
+            <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-bold text-rose-400">Point Q(x₂, y₂, z₂)</span>
+            </div>
+            <div class="space-y-1">
+                <input type="range" min="-8" max="8" step="0.1" value="-3" id="qx" class="w-full">
+                <input type="range" min="-8" max="8" step="0.1" value="-2" id="qy" class="w-full">
+                <input type="range" min="-8" max="8" step="0.1" value="-4" id="qz" class="w-full">
+            </div>
+        </div>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl shadow-2xl">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Mathematical Result</h3>
+        
+        <div class="text-sm space-y-2 mb-4">
+            <div class="flex justify-between"><span class="text-slate-400">Δx = |x₁ - x₂|</span> <span id="val-dx" class="font-mono">0.00</span></div>
+            <div class="flex justify-between"><span class="text-slate-400">Δy = |y₁ - y₂|</span> <span id="val-dy" class="font-mono">0.00</span></div>
+            <div class="flex justify-between"><span class="text-slate-400">Δz = |z₁ - z₂|</span> <span id="val-dz" class="font-mono">0.00</span></div>
+        </div>
+
+        <div class="bg-slate-900/50 p-3 rounded-lg border border-sky-500/30 text-center">
+            <div class="text-xs text-sky-400 mb-1 math-font">d = √[ Δx² + Δy² + Δz² ]</div>
+            <div id="formula-result" class="text-lg font-bold text-white font-mono">0.000</div>
+        </div>
+    </div>
+</div>
+
+<div id="labels-container">
+    <div id="label-p" class="label-3d border-sky-500">P</div>
+    <div id="label-q" class="label-3d border-rose-500">Q</div>
+</div>
+
+<script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+    // --- Scene Setup ---
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0f172a);
+    scene.fog = new THREE.Fog(0x0f172a, 20, 50);
+
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(18, 12, 18);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(window.devicePixelRatio);
+    document.body.appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+
+    // --- Lighting ---
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+    scene.add(ambientLight);
+    const pointLight = new THREE.PointLight(0xffffff, 1);
+    pointLight.position.set(10, 20, 10);
+    scene.add(pointLight);
+
+    // --- Helpers ---
+    const grid = new THREE.GridHelper(20, 20, 0x334155, 0x1e293b);
+    scene.add(grid);
+
+    // --- Points P and Q ---
+    const sphereGeo = new THREE.SphereGeometry(0.35, 32, 32);
+    const matP = new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x38bdf8, emissiveIntensity: 0.5 });
+    const matQ = new THREE.MeshStandardMaterial({ color: 0xf43f5e, emissive: 0xf43f5e, emissiveIntensity: 0.5 });
+    
+    const meshP = new THREE.Mesh(sphereGeo, matP);
+    const meshQ = new THREE.Mesh(sphereGeo, matQ);
+    scene.add(meshP, meshQ);
+
+    // --- Distance Line PQ ---
+    const lineMat = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.8 });
+    const linePQ = new THREE.Line(new THREE.BufferGeometry(), lineMat);
+    scene.add(linePQ);
+
+    // --- Box Construction (Visualizing dx, dy, dz) ---
+    // We'll use a group of dashed lines to form a rectangular cuboid between the points
+    const boxGroup = new THREE.Group();
+    scene.add(boxGroup);
+
+    const dashedMat = (color) => new THREE.LineDashedMaterial({ 
+        color: color, dashSize: 0.3, gapSize: 0.2, transparent: true, opacity: 0.5 
+    });
+
+    const boxLines = {
+        dx: new THREE.Line(new THREE.BufferGeometry(), dashedMat(0x38bdf8)),
+        dy: new THREE.Line(new THREE.BufferGeometry(), dashedMat(0x22c55e)),
+        dz: new THREE.Line(new THREE.BufferGeometry(), dashedMat(0xfacc15))
+    };
+    // Add more lines to complete the wireframe box
+    const frames = Array.from({length: 9}, () => new THREE.Line(new THREE.BufferGeometry(), dashedMat(0x475569)));
+    frames.forEach(f => boxGroup.add(f));
+    boxGroup.add(boxLines.dx, boxLines.dy, boxLines.dz);
+
+    function update() {
+        const p = {
+            x: parseFloat(document.getElementById('px').value),
+            y: parseFloat(document.getElementById('py').value),
+            z: parseFloat(document.getElementById('pz').value)
+        };
+        const q = {
+            x: parseFloat(document.getElementById('qx').value),
+            y: parseFloat(document.getElementById('qy').value),
+            z: parseFloat(document.getElementById('qz').value)
+        };
+
+        meshP.position.set(p.x, p.y, p.z);
+        meshQ.position.set(q.x, q.y, q.z);
+
+        // Update main segment
+        linePQ.geometry.dispose();
+        linePQ.geometry = new THREE.BufferGeometry().setFromPoints([
+            new THREE.Vector3(p.x, p.y, p.z),
+            new THREE.Vector3(q.x, q.y, q.z)
+        ]);
+
+        // Math Logic
+        const dx = p.x - q.x;
+        const dy = p.y - q.y;
+        const dz = p.z - q.z;
+        const distance = Math.sqrt(dx*dx + dy*dy + dz*dz);
+
+        // UI Update
+        document.getElementById('val-dx').innerText = Math.abs(dx).toFixed(2);
+        document.getElementById('val-dy').innerText = Math.abs(dy).toFixed(2);
+        document.getElementById('val-dz').innerText = Math.abs(dz).toFixed(2);
+        document.getElementById('formula-result').innerText = distance.toFixed(3);
+
+        // Update Box Construction (Step Logic)
+        const updateLine = (line, p1, p2) => {
+            line.geometry.dispose();
+            line.geometry = new THREE.BufferGeometry().setFromPoints([p1, p2]);
+            line.computeLineDistances();
+        };
+
+        // Building the orthogonal paths
+        const corner1 = new THREE.Vector3(p.x, q.y, p.z);
+        const corner2 = new THREE.Vector3(q.x, q.y, p.z);
+
+        updateLine(boxLines.dy, new THREE.Vector3(p.x, p.y, p.z), corner1); // Vertical Δy
+        updateLine(boxLines.dx, corner1, corner2); // Horizontal Δx
+        updateLine(boxLines.dz, corner2, new THREE.Vector3(q.x, q.y, q.z)); // Depth Δz
+
+        // Ghost box edges (completing the cuboid visually)
+        updateLine(frames[0], new THREE.Vector3(p.x, p.y, q.z), new THREE.Vector3(q.x, p.y, q.z));
+        updateLine(frames[1], new THREE.Vector3(p.x, p.y, q.z), new THREE.Vector3(p.x, q.y, q.z));
+        updateLine(frames[2], new THREE.Vector3(q.x, p.y, q.z), new THREE.Vector3(q.x, q.y, q.z));
+        updateLine(frames[3], new THREE.Vector3(p.x, q.y, q.z), new THREE.Vector3(q.x, q.y, q.z));
+        updateLine(frames[4], new THREE.Vector3(p.x, p.y, p.z), new THREE.Vector3(p.x, p.y, q.z));
+        updateLine(frames[5], new THREE.Vector3(q.x, p.y, p.z), new THREE.Vector3(q.x, p.y, q.z));
+        updateLine(frames[6], new THREE.Vector3(p.x, q.y, p.z), new THREE.Vector3(p.x, q.y, q.z));
+        updateLine(frames[7], new THREE.Vector3(p.x, p.y, p.z), new THREE.Vector3(q.x, p.y, p.z));
+        updateLine(frames[8], new THREE.Vector3(q.x, q.y, p.z), new THREE.Vector3(q.x, p.y, p.z));
+    }
+
+    function syncLabels() {
+        const labels = [
+            { id: 'label-p', pos: meshP.position, text: `P(${meshP.position.x.toFixed(1)}, ${meshP.position.y.toFixed(1)}, ${meshP.position.z.toFixed(1)})` },
+            { id: 'label-q', pos: meshQ.position, text: `Q(${meshQ.position.x.toFixed(1)}, ${meshQ.position.y.toFixed(1)}, ${meshQ.position.z.toFixed(1)})` }
+        ];
+
+        labels.forEach(l => {
+            const div = document.getElementById(l.id);
+            const vector = l.pos.clone().project(camera);
+            const x = (vector.x * 0.5 + 0.5) * window.innerWidth;
+            const y = (vector.y * -0.5 + 0.5) * window.innerHeight;
+            div.style.left = `${x}px`;
+            div.style.top = `${y}px`;
+            div.innerText = l.text;
+            div.style.opacity = vector.z < 1 ? 1 : 0;
+        });
+    }
+
+    // Events
+    document.querySelectorAll('input').forEach(i => i.addEventListener('input', update));
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    // Loop
+    update();
+    function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        syncLabels();
+        renderer.render(scene, camera);
+    }
+    animate();
+
+</script>
+</body>
+</html>
