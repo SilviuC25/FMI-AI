@@ -56,7 +56,7 @@ vector<TValue> SortedMultiMap::search(TKey c) const {
 
 bool SortedMultiMap::remove(TKey c, TValue v) {
 	// BC = Theta(1), WC = TC = Theta(mapSize)
-  Node* currentNode = this->head;
+  	Node* currentNode = this->head;
 	Node* prevNode = nullptr;
 
 	while (currentNode != nullptr) {

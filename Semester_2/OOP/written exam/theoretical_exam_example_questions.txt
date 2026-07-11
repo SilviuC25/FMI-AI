@@ -1,0 +1,28 @@
+1. What is the output of the program?
+
+2. Identify one part in the main function where object
+slicing occurs and explain how it can be fixed.
+
+3. Explain what is a memory leak. Identify the memory leak
+in the code and write how it can be fixed.
+
+4. Define what is overriding in the code above.
+
+5. In the context of inheritence in C++, what is the order of
+construction and the order of destruction of base and derived
+objects? Explain it based on the code above.
+
+6. Define encapsulation and briefly mention how it is achieved
+int the code above.
+
+7. Write the code that creates an associative STL, with constant
+amortizedtime for retrieval and groups the animals in the zoo
+vector by bype (the keys are the strings "cat" and "dog").
+
+8. What is the difference between an abstract and a virtual
+function in C++?
+
+9. Explain the concept of stack unwinding in the context
+of the code above.
+
+(1p) Default

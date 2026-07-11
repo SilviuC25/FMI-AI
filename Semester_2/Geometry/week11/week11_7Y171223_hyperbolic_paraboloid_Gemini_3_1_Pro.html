@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperbolic Paraboloid: Section 10.6</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <style>
+        /* Base styles to ensure full screen 3D canvas and clean typography */
+        body { 
+            margin: 0; 
+            overflow: hidden; 
+            background: #020617; /* Dark slate background */
+            color: #f8fafc; 
+            font-family: 'Segoe UI', system-ui, sans-serif; 
+        }
+        canvas { display: block; }
+        
+        /* Glassmorphism panel styling */
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Custom minimal slider design */
+        .custom-slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 4px;
+            background: #334155;
+            border-radius: 2px;
+            outline: none;
+        }
+        .custom-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #38bdf8;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+        .custom-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        /* Mathematical text container */
+        .math-box {
+            font-family: 'Courier New', Courier, monospace;
+            background: rgba(0, 0, 0, 0.4);
+            border-left: 3px solid #38bdf8;
+            letter-spacing: 0.5px;
+        }
+
+        /* 3D Floating Labels for geometric points */
+        .label-3d {
+            position: absolute;
+            pointer-events: none;
+            padding: 4px 10px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(56, 189, 248, 0.4);
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #fff;
+            z-index: 10;
+            transform: translate(-50%, -100%);
+            transition: opacity 0.2s;
+        }
+
+        /* Scrollbar hiding for the side panel */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body>
+
+<div id="ui" class="absolute top-4 left-4 w-96 z-20 space-y-4 max-h-[95vh] overflow-y-auto no-scrollbar pb-6">
+    
+    <div class="glass-panel p-5 rounded-2xl">
+        <h1 class="text-xl font-bold text-sky-400">Hyperbolic Paraboloid</h1>
+        <p class="text-xs text-slate-400 mt-1 uppercase tracking-wider font-semibold">
+            Based on Section 10.6
+        </p>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl space-y-4">
+        <h3 class="text-xs font-bold text-slate-300 uppercase">Canonical Equation</h3>
+        <div class="math-box p-3 rounded text-center text-sm">
+            x²/a - y²/b - 2z = 0
+        </div>
+        
+        <h3 class="text-xs font-bold text-slate-300 uppercase mt-4">Parametrization σ(θ₁, θ₂)</h3>
+        <div class="math-box p-3 rounded text-center text-xs text-slate-300">
+            x = √a · θ₁ <br>
+            y = √b · θ₂ <br>
+            z = ½(θ₁² - θ₂²)
+        </div>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl space-y-5">
+        <h3 class="text-xs font-bold text-slate-300 uppercase mb-2">Surface Parameters</h3>
+        <div>
+            <div class="flex justify-between mb-2">
+                <label class="text-xs text-slate-400">Constant 'a'</label>
+                <span id="val-a" class="text-xs font-mono text-sky-400">2.0</span>
+            </div>
+            <input type="range" id="paramA" min="0.5" max="5" step="0.1" value="2" class="custom-slider">
+        </div>
+        <div>
+            <div class="flex justify-between mb-2">
+                <label class="text-xs text-slate-400">Constant 'b'</label>
+                <span id="val-b" class="text-xs font-mono text-emerald-400">2.0</span>
+            </div>
+            <input type="range" id="paramB" min="0.5" max="5" step="0.1" value="2" class="custom-slider">
+        </div>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl space-y-4">
+        <h3 class="text-xs font-bold text-slate-300 uppercase mb-2">Doubly Ruled Properties</h3>
+        <p class="text-[10px] text-slate-400 mb-3">
+            The surface contains two distinct families of straight lines (L₁ and L₂). Every point lies on one line from each family.
+        </p>
+        <label class="flex items-center space-x-3 cursor-pointer">
+            <input type="checkbox" id="showMesh" checked class="w-4 h-4 rounded accent-sky-500">
+            <span class="text-xs text-slate-200">Show Surface Mesh</span>
+        </label>
+        <label class="flex items-center space-x-3 cursor-pointer">
+            <input type="checkbox" id="showL1" checked class="w-4 h-4 rounded accent-sky-500">
+            <span class="text-xs text-sky-300">Show Lines L₁ (λ, µ)</span>
+        </label>
+        <label class="flex items-center space-x-3 cursor-pointer">
+            <input type="checkbox" id="showL2" checked class="w-4 h-4 rounded accent-emerald-500">
+            <span class="text-xs text-emerald-300">Show Lines L₂ (λ, µ)</span>
+        </label>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl space-y-4">
+        <h3 class="text-xs font-bold text-slate-300 uppercase mb-2">Tangent Plane Tₚ</h3>
+        <label class="flex items-center space-x-3 cursor-pointer mb-3">
+            <input type="checkbox" id="showTangent" class="w-4 h-4 rounded accent-rose-500">
+            <span class="text-xs text-rose-300">Enable Tangent Plane</span>
+        </label>
+        
+        <div id="tangent-controls" class="hidden space-y-4 border-t border-slate-700 pt-4">
+            <div class="math-box p-2 rounded text-center text-[10px] text-rose-200 mb-2">
+                (xₚx)/a - (yₚy)/b - zₚ - z = 0
+            </div>
+            <div>
+                <div class="flex justify-between mb-1">
+                    <label class="text-[10px] text-slate-400">Point P (x-coord)</label>
+                    <span id="val-px" class="text-[10px] font-mono text-white">1.0</span>
+                </div>
+                <input type="range" id="px" min="-4" max="4" step="0.1" value="1" class="custom-slider">
+            </div>
+            <div>
+                <div class="flex justify-between mb-1">
+                    <label class="text-[10px] text-slate-400">Point P (y-coord)</label>
+                    <span id="val-py" class="text-[10px] font-mono text-white">1.0</span>
+                </div>
+                <input type="range" id="py" min="-4" max="4" step="0.1" value="1" class="custom-slider">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="labels-container">
+    <div id="label-p" class="label-3d hidden border-rose-500">Point P</div>
+</div>
+
+<script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+    // --- 1. SETUP SCENE & CAMERA ---
+    // Section 10 utilizes standard Euclidean space E3.
+    // Mathematically, Z is usually up in these equations.
+    THREE.Object3D.DEFAULT_UP.set(0, 0, 1);
+    
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x020617);
+    
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(15, 15, 12);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    document.body.appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+
+    // --- 2. LIGHTING & GRID ---
+    scene.add(new THREE.AmbientLight(0xffffff, 0.5));
+    
+    const dirLight = new THREE.DirectionalLight(0xffffff, 1.2);
+    dirLight.position.set(10, 20, 30);
+    scene.add(dirLight);
+
+    const grid = new THREE.GridHelper(20, 20, 0x1e293b, 0x0f172a);
+    grid.rotation.x = Math.PI / 2; // Lay flat on the XY plane
+    scene.add(grid);
+
+    // --- 3. GEOMETRY CONTAINERS ---
+    let surfaceMesh = null;
+    const linesL1Group = new THREE.Group();
+    const linesL2Group = new THREE.Group();
+    scene.add(linesL1Group);
+    scene.add(linesL2Group);
+
+    // Point P and Tangent Plane
+    const pointP = new THREE.Mesh(
+        new THREE.SphereGeometry(0.15, 32, 32),
+        new THREE.MeshStandardMaterial({ color: 0xf43f5e, emissive: 0xf43f5e, emissiveIntensity: 0.5 })
+    );
+    scene.add(pointP);
+
+    let tangentPlane = null;
+
+    // --- 4. MATHEMATICAL UPDATE LOGIC ---
+    function updateScene() {
+        // Fetch UI parameters
+        const a = parseFloat(document.getElementById('paramA').value);
+        const b = parseFloat(document.getElementById('paramB').value);
+        const px = parseFloat(document.getElementById('px').value);
+        const py = parseFloat(document.getElementById('py').value);
+
+        // Update UI text values
+        document.getElementById('val-a').innerText = a.toFixed(1);
+        document.getElementById('val-b').innerText = b.toFixed(1);
+        document.getElementById('val-px').innerText = px.toFixed(1);
+        document.getElementById('val-py').innerText = py.toFixed(1);
+
+        // A. Generate Surface Mesh using the exact Parametrization from 10.6.4
+        // σ(θ1, θ2) = [√a θ1, √b θ2, 1/2(θ1² - θ2²)]
+        if (surfaceMesh) {
+            scene.remove(surfaceMesh);
+            surfaceMesh.geometry.dispose();
+            surfaceMesh.material.dispose();
+        }
+
+        if (document.getElementById('showMesh').checked) {
+            const paramFunc = (u, v, target) => {
+                // Map u, v from [0, 1] to [-3, 3] for theta1 and theta2
+                const theta1 = (u - 0.5) * 6;
+                const theta2 = (v - 0.5) * 6;
+                
+                const x = Math.sqrt(a) * theta1;
+                const y = Math.sqrt(b) * theta2;
+                const z = 0.5 * (theta1 * theta1 - theta2 * theta2);
+                
+                target.set(x, y, z);
+            };
+
+            // We use standard plane geometry and manually set positions to match parametric
+            // This is more robust in modern three.js than ParametricGeometry
+            const geo = new THREE.PlaneGeometry(1, 1, 40, 40);
+            const pos = geo.attributes.position;
+            const target = new THREE.Vector3();
+            
+            for (let i = 0; i < pos.count; i++) {
+                // Plane u,v mapping
+                const u = (pos.getX(i) + 0.5);
+                const v = (pos.getY(i) + 0.5);
+                paramFunc(u, v, target);
+                pos.setXYZ(i, target.x, target.y, target.z);
+            }
+            geo.computeVertexNormals();
+
+            const mat = new THREE.MeshPhongMaterial({
+                color: 0x0f172a,
+                emissive: 0x1e3a8a,
+                emissiveIntensity: 0.4,
+                side: THREE.DoubleSide,
+                transparent: true,
+                opacity: 0.8,
+                shininess: 80
+            });
+
+            surfaceMesh = new THREE.Mesh(geo, mat);
+            scene.add(surfaceMesh);
+        }
+
+        // B. Generate Doubly Ruled Lines (Generatrices L1 and L2) from Section 10.6.3
+        linesL1Group.clear();
+        linesL2Group.clear();
+
+        const drawLine = (group, p1, p2, color) => {
+            const mat = new THREE.LineBasicMaterial({ color: color, transparent: true, opacity: 0.6 });
+            const geo = new THREE.BufferGeometry().setFromPoints([p1, p2]);
+            group.add(new THREE.Line(geo, mat));
+        };
+
+        const tMin = -10, tMax = 10; // Extent of the lines
+
+        if (document.getElementById('showL1').checked) {
+            // Family L1: parameterized by alpha = lambda/mu
+            for (let alpha = -4; alpha <= 4; alpha += 0.5) {
+                if (Math.abs(alpha) < 0.01) {
+                    // Special line l_infty at z=0 (from the draft text)
+                    // x/sqrt(a) + y/sqrt(b) = 0 => y = -x * sqrt(b/a)
+                    const x1 = tMin, y1 = -tMin * Math.sqrt(b/a), z1 = 0;
+                    const x2 = tMax, y2 = -tMax * Math.sqrt(b/a), z2 = 0;
+                    drawLine(linesL1Group, new THREE.Vector3(x1, y1, z1), new THREE.Vector3(x2, y2, z2), 0x38bdf8);
+                    continue;
+                }
+                
+                // General lines L1
+                const getPtL1 = (t) => {
+                    const x = (Math.sqrt(a) / 2) * ((1 / alpha) + 2 * alpha * t);
+                    const y = (Math.sqrt(b) / 2) * ((1 / alpha) - 2 * alpha * t);
+                    return new THREE.Vector3(x, y, t);
+                };
+                drawLine(linesL1Group, getPtL1(tMin), getPtL1(tMax), 0x38bdf8);
+            }
+        }
+
+        if (document.getElementById('showL2').checked) {
+            // Family L2: parameterized by beta = lambda/mu
+            for (let beta = -4; beta <= 4; beta += 0.5) {
+                if (Math.abs(beta) < 0.01) {
+                    // Special line tilde(l)_infty at z=0
+                    // x/sqrt(a) - y/sqrt(b) = 0 => y = x * sqrt(b/a)
+                    const x1 = tMin, y1 = tMin * Math.sqrt(b/a), z1 = 0;
+                    const x2 = tMax, y2 = tMax * Math.sqrt(b/a), z2 = 0;
+                    drawLine(linesL2Group, new THREE.Vector3(x1, y1, z1), new THREE.Vector3(x2, y2, z2), 0x10b981);
+                    continue;
+                }
+
+                // General lines L2
+                const getPtL2 = (t) => {
+                    const x = (Math.sqrt(a) / 2) * ((1 / beta) + 2 * beta * t);
+                    const y = (Math.sqrt(b) / 2) * (-(1 / beta) + 2 * beta * t);
+                    return new THREE.Vector3(x, y, t);
+                };
+                drawLine(linesL2Group, getPtL2(tMin), getPtL2(tMax), 0x10b981);
+            }
+        }
+
+        // C. Tangent Plane T_p at moving point P
+        const showT = document.getElementById('showTangent').checked;
+        const tangentUI = document.getElementById('tangent-controls');
+        const labelP = document.getElementById('label-p');
+        
+        tangentUI.style.display = showT ? 'block' : 'none';
+        
+        if (showT) {
+            // Calculate z_p using canonical equation: z = x^2/2a - y^2/2b
+            const pz = (px * px / a - py * py / b) / 2;
+            pointP.position.set(px, py, pz);
+            labelP.style.display = 'block';
+
+            if (tangentPlane) {
+                scene.remove(tangentPlane);
+                tangentPlane.geometry.dispose();
+                tangentPlane.material.dispose();
+            }
+
+            // Normal vector N calculated directly from Section 10.6.2 equation
+            // (x_p * x) / a - (y_p * y) / b - z_p - z = 0
+            // N = (x_p/a, -y_p/b, -1)
+            const normal = new THREE.Vector3(px / a, -py / b, -1).normalize();
+
+            const tGeo = new THREE.PlaneGeometry(8, 8);
+            const tMat = new THREE.MeshPhongMaterial({ 
+                color: 0xf43f5e, 
+                side: THREE.DoubleSide, 
+                transparent: true, 
+                opacity: 0.4 
+            });
+            tangentPlane = new THREE.Mesh(tGeo, tMat);
+            
+            // Align plane to point P and orient with normal vector
+            tangentPlane.position.copy(pointP.position);
+            const defaultNormal = new THREE.Vector3(0, 0, 1);
+            tangentPlane.quaternion.setFromUnitVectors(defaultNormal, normal);
+            
+            scene.add(tangentPlane);
+        } else {
+            pointP.position.set(0, 0, -1000); // Hide offscreen
+            labelP.style.display = 'none';
+            if (tangentPlane) scene.remove(tangentPlane);
+        }
+    }
+
+    // --- 5. FLOATING LABELS SYNC ---
+    function syncLabels() {
+        if (!document.getElementById('showTangent').checked) return;
+        
+        const label = document.getElementById('label-p');
+        const proj = pointP.position.clone().project(camera);
+        
+        // Map 3D to 2D screen coordinates
+        const x = (proj.x * 0.5 + 0.5) * window.innerWidth;
+        const y = (proj.y * -0.5 + 0.5) * window.innerHeight;
+        
+        label.style.left = `${x}px`;
+        label.style.top = `${y}px`;
+        label.innerText = `P(${pointP.position.x.toFixed(1)}, ${pointP.position.y.toFixed(1)}, ${pointP.position.z.toFixed(1)})`;
+        
+        // Hide if behind camera
+        label.style.opacity = proj.z < 1 ? 1 : 0;
+    }
+
+    // --- 6. EVENT LISTENERS & ANIMATION LOOP ---
+    document.querySelectorAll('input').forEach(input => {
+        input.addEventListener('input', updateScene);
+    });
+
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    updateScene(); // Initial call
+
+    function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        syncLabels();
+        renderer.render(scene, camera);
+    }
+    
+    animate();
+</script>
+</body>
+</html>

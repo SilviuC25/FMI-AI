@@ -1,0 +1,54 @@
+📝 Executive Summary: Lectures 1, 2 & 8 (Memory Management & Smart Pointers)
+1. Memory Layout: Stack vs. Heap (Free Store)
+The Stack: * Used for local variables and function call management.
+
+Allocation and deallocation are automatic (managed by the compiler). Memory is freed when a variable goes out of scope.
+
+Fast, but limited in size.
+
+The Heap (Free Store):
+
+Used for dynamic memory allocation via new and delete (or new[] and delete[] for arrays).
+
+The programmer is fully responsible for its lifetime.
+
+Larger capacity, but slower and prone to memory leaks if not managed correctly.
+
+2. Pointers & Raw Memory Dangers
+Pointer: A variable that holds the memory address of another variable (T* ptr = &var;).
+
+Dereferencing (*ptr): Accessing the value stored at the address the pointer points to.
+
+Dangling Pointer: A pointer pointing to a memory location that has already been deallocated (e.g., after calling delete ptr; without setting ptr = nullptr;). Accessing it causes Undefined Behavior.
+
+Memory Leak: Dynamically allocated memory on the Heap that is never released with delete, causing the application to waste RAM.
+
+3. Resource Acquisition Is Initialization (RAII) & Smart Pointers (C++11)
+RAII is a core C++ design pattern: resource allocation is tied to object lifetime. When a local object on the Stack is destroyed (goes out of scope), its destructor automatically releases the Heap resource it owns.
+
+C++11 introduced Smart Pointers (found in <memory>) to automate RAII and eliminate manual delete:
+
+std::unique_ptr<T>: * Maintains exclusive ownership of a resource.
+
+Cannot be copied (copy constructor is deleted), but can be moved using std::move().
+
+Instantiated safely using std::make_unique<T>(...).
+
+std::shared_ptr<T>: * Maintains shared ownership via an internal reference counter.
+
+The resource is automatically destroyed only when the last shared_ptr pointing to it is destroyed or reset.
+
+Instantiated using std::make_shared<T>(...).
+
+std::weak_ptr<T>: * Holds a non-owning ("weak") reference to an object managed by std::shared_ptr.
+
+Does not increase the reference counter. Used to break cyclic dependencies (circular references) which would otherwise cause memory leaks.
+
+4. Move Semantics (L-values vs. R-values)
+L-value: An expression that refers to a specific memory location (has a name, you can take its address, e.g., int x = 5; -> x is an l-value).
+
+R-value: A temporary value that does not have a persistent memory location (temporary/expiring objects, literals, e.g., the result of x + 5 or a temporary string).
+
+Move Semantics: Instead of copying data from a temporary object (which requires deep allocation), C++11 allows stealing/moving the resources (pointers) from an r-value to a new object. It uses R-value references (T&&).
+
+std::move(): A standard library function that casts an l-value into an r-value reference, forcing the compiler to use the Move Constructor or Move Assignment Operator instead of copying.

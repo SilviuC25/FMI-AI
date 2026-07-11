@@ -1,0 +1,52 @@
+Model a smart home system where devices respond to sensor readingsm and the system decides how to react 
+using different decision policies (for example, an energy-saving policy versus a comfort policy).
+
+(1p) Define a templated class Reading<T> that represents a single timestamped sensor measurement. It stores a value of type T
+and an integer timestamp. Provide a constructor and two getters: value() andd timestamp(). In each Decice subclass, store the
+most recent Reading<double> received and update it inside should_activate().
+
+(1p) Define an abstract base class Device. It should store a device ID, a location name (room name as a string), and an energy cost
+(number, representing wats). Declare a pure virtual function should_activate that takes the current sensor reading 
+(a Reading<double>) and a decision policy object (see below), and returns a boolean (whether the device should turn on).
+Inside the override, extract the numeric value from the reading (using value()) to pass to the policy.
+
+(2p) Define two concrete subclasses of Defice:
+    . Light: represent a smart light that react to an ambient brightness reading. It stores a brightness threshold below which 
+    the light is mean to be on. Override should_activate using the provided decision policy.
+    . Heater: represents a smart header that reacts to a temperature reading. it stores a target temperature. Override
+    should_activate using the provided decison policy.
+
+(1p) Define an interface DecisionPolicy with a single pure virtual function decide, which takes two doubles (a target/threshold
+value and the current sensor reading), and return a boolean (whether the decice should be activated).
+
+(2p) Implement the following concrete pollicies derived from DecisionPollicy:
+    . ComfortPolicy priorities comfort and activates the device whenever the reading falls below the target.
+    . EnergySavingPolicy activated the device inly when the reading is below the target by more than a fixed tolerance margin,
+    to avoid switching on for minor fluctuations. The construcot takes the tolerance value.
+    . WhitelistPollicy used when only certain specific readings should trigger activation (for example, a device that should
+    only switch on at a few known calibration values). The constructor accepts a list of acceptable readings (a vector<double>).
+    The policy activates the device if the current reading matches at least one value in the list. Use std::any_of to check this,
+    by completing the lambda below:
+    vector<double> accepted; // the list of acceptable readings
+    double reading; // the current sensor reading
+    bool active = std::any_of(accepted.begin(), accepted.end(), /* your lambda here */);
+
+    std::any_of returns true if the unary predicate returns true for at least one element in the range, Your lambda should
+    take a single value from the list and return true if it equals the current reading.
+
+(1p) Define a SmartHome class that holds a polymorphic collection of Device objects.
+    . Add a method add_device to register a device.
+    . Add a method run, which takes a map of device IDs to sensor reading (map<int, Reading<double>>) and a decision policy.
+    It returns the total energy cost of all devices that the pollicy decided to activate. Devices with no reading in the map are 
+    treated as inactive and contibute zero. The method should throw std::invalid_argument if a device ID present in the map 
+    does not corresponds to any registered device.
+
+In main, create a smart home with at least three Light objects and two Heater objects. Add a set of incoming sensor readings.
+Apply ComfortPolicy, EnergyPolicy, EnergySavingPolicy and WhitelistPolicy separately and print the total energy cost under each.
+Use try-catch blocks to handle all exceptions arising from invalid readings or policy misuse.
+
+(1p) Draw a UML class diagram including. Device, Light, Heaterm DecisionPolicy, all three policy classes, the templated
+Reading class and SmartHome. Label all relationships between classes. (Suggestion: start with this problem it will help you 
+better understand the problem).
+
+(1p) Default.

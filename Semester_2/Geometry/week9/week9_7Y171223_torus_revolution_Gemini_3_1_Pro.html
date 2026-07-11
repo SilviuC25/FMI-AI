@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torus: Surface of Revolution Visualizer</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <style>
+        body { margin: 0; overflow: hidden; background: #020617; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; }
+        canvas { display: block; }
+        
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .custom-slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 6px;
+            background: #334155;
+            border-radius: 3px;
+            outline: none;
+        }
+
+        .slider-R::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #38bdf8; cursor: pointer; }
+        .slider-r::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #a78bfa; cursor: pointer; }
+        .slider-sweep::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #f43f5e; cursor: pointer; }
+
+        .math-text { font-family: 'Courier New', Courier, monospace; }
+        
+        .label-3d {
+            position: absolute;
+            pointer-events: none;
+            padding: 4px 8px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #fff;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+<div id="ui" class="absolute top-5 left-5 w-96 z-20 space-y-4 max-h-screen overflow-y-auto pb-5 pr-2">
+    
+    <div class="glass-panel p-5 rounded-2xl">
+        <h1 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500">
+            Torus: Surface of Revolution
+        </h1>
+        <p class="text-xs text-slate-400 mt-2 font-semibold tracking-wide uppercase">
+            Chapter 7.2.3: Volume Enclosed
+        </p>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl space-y-5">
+        
+        <div>
+            <div class="flex justify-between mb-1">
+                <label class="text-xs font-bold text-sky-400 uppercase">Major Radius (R)</label>
+                <span id="val-R" class="text-xs font-mono bg-slate-800 px-2 py-0.5 rounded">3.0</span>
+            </div>
+            <p class="text-[10px] text-slate-500 mb-2">Distance from origin to tube center</p>
+            <input type="range" id="paramR" min="1.5" max="6.0" step="0.1" value="3.0" class="custom-slider slider-R">
+        </div>
+
+        <div>
+            <div class="flex justify-between mb-1">
+                <label class="text-xs font-bold text-purple-400 uppercase">Minor Radius (r)</label>
+                <span id="val-r" class="text-xs font-mono bg-slate-800 px-2 py-0.5 rounded">1.0</span>
+            </div>
+            <p class="text-[10px] text-slate-500 mb-2">Radius of the revolving circle</p>
+            <input type="range" id="param-r" min="0.2" max="1.4" step="0.1" value="1.0" class="custom-slider slider-r">
+        </div>
+
+        <hr class="border-slate-700">
+
+        <div>
+            <div class="flex justify-between mb-1">
+                <label class="text-xs font-bold text-rose-400 uppercase">Sweep Angle (&theta;)</label>
+                <span id="val-sweep" class="text-xs font-mono bg-slate-800 px-2 py-0.5 rounded">360&deg;</span>
+            </div>
+            <p class="text-[10px] text-slate-500 mb-2">Revolve the circle around the Z-axis</p>
+            <input type="range" id="paramSweep" min="0" max="360" step="1" value="360" class="custom-slider slider-sweep">
+        </div>
+    </div>
+
+    <div class="glass-panel p-5 rounded-2xl space-y-4">
+        
+        <div>
+            <h3 class="text-xs font-bold text-emerald-400 uppercase mb-2">Volume Calculation</h3>
+            <div class="bg-slate-900/60 p-3 rounded-lg border border-emerald-500/30 text-center">
+                <div class="text-[11px] text-slate-400 mb-1 font-serif italic">V = 2&pi;&sup2; R r&sup2;</div>
+                <div class="text-xl font-bold text-white math-text">
+                    <span id="res-volume">0.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="text-xs font-bold text-amber-400 uppercase mb-2">Implicit Equation f(x,y,z) = 0</h3>
+            <div class="bg-slate-900/60 p-3 rounded-lg border border-amber-500/30 text-center">
+                <div class="text-xs text-slate-300 math-text leading-relaxed">
+                    (x&sup2; + y&sup2; + z&sup2; + R&sup2; - r&sup2;)&sup2; <br> - 4R&sup2;(x&sup2; + y&sup2;) = 0
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="labels-container">
+    <div id="lab-z" class="label-3d text-blue-400 border-blue-500/50">Z-Axis</div>
+    <div id="lab-circle" class="label-3d text-purple-400 border-purple-500/50 bg-transparent">Generating Circle</div>
+</div>
+
+<script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+    // --- 1. SETUP SCENE ---
+    THREE.Object3D.DEFAULT_UP.set(0, 0, 1); // Z is UP mathematically
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x020617);
+    
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(10, 12, 8);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(window.devicePixelRatio);
+    document.body.appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+
+    // --- 2. LIGHTING & GRID ---
+    scene.add(new THREE.AmbientLight(0xffffff, 0.4));
+    
+    const dirLight = new THREE.DirectionalLight(0xffffff, 1);
+    dirLight.position.set(10, -10, 15);
+    scene.add(dirLight);
+
+    const spotLight = new THREE.PointLight(0x38bdf8, 2, 50);
+    spotLight.position.set(0, 0, 0);
+    scene.add(spotLight);
+
+    const grid = new THREE.GridHelper(20, 20, 0x1e293b, 0x0f172a);
+    grid.rotation.x = Math.PI / 2; // Flat on XY plane
+    scene.add(grid);
+
+    // Z-Axis line
+    const zAxisMat = new THREE.LineBasicMaterial({ color: 0x3b82f6, linewidth: 2 });
+    const zAxisGeo = new THREE.BufferGeometry().setFromPoints([
+        new THREE.Vector3(0, 0, -10), new THREE.Vector3(0, 0, 10)
+    ]);
+    scene.add(new THREE.Line(zAxisGeo, zAxisMat));
+
+    // --- 3. GEOMETRY CONTAINERS ---
+    let torusMesh;
+    let generatingCircle;
+    let radiusLineR;
+
+    // --- 4. UPDATE LOGIC ---
+    function updateVisualization() {
+        // Get values
+        const R = parseFloat(document.getElementById('paramR').value);
+        const r = parseFloat(document.getElementById('param-r').value);
+        const sweepDeg = parseFloat(document.getElementById('paramSweep').value);
+        const sweepRad = THREE.MathUtils.degToRad(sweepDeg);
+
+        // Update UI text
+        document.getElementById('val-R').innerText = R.toFixed(1);
+        document.getElementById('val-r').innerText = r.toFixed(1);
+        document.getElementById('val-sweep').innerText = sweepDeg + '°';
+        
+        // Calculate Volume: V = 2 * pi^2 * R * r^2
+        const volume = 2 * Math.pow(Math.PI, 2) * R * Math.pow(r, 2);
+        
+        // Show volume only if fully swept, otherwise show partial or just indicate full volume
+        document.getElementById('res-volume').innerText = volume.toFixed(2);
+
+        // A. Create/Update Torus Surface
+        if (torusMesh) {
+            scene.remove(torusMesh);
+            torusMesh.geometry.dispose();
+            torusMesh.material.dispose();
+        }
+
+        const torusGeo = new THREE.TorusGeometry(R, r, 32, 64, sweepRad);
+        const torusMat = new THREE.MeshStandardMaterial({
+            color: 0x0ea5e9,
+            roughness: 0.3,
+            metalness: 0.2,
+            side: THREE.DoubleSide,
+            transparent: true,
+            opacity: 0.85,
+            wireframe: false
+        });
+        torusMesh = new THREE.Mesh(torusGeo, torusMat);
+        scene.add(torusMesh);
+
+        // B. Create/Update Generating Circle (The cross section)
+        if (generatingCircle) {
+            scene.remove(generatingCircle);
+            generatingCircle.geometry.dispose();
+            generatingCircle.material.dispose();
+        }
+
+        // The circle is drawn in the XZ plane, shifted by R, then rotated by sweepRad
+        const circleGeo = new THREE.RingGeometry(r - 0.05, r + 0.05, 32);
+        const circleMat = new THREE.MeshBasicMaterial({ color: 0xa855f7, side: THREE.DoubleSide });
+        generatingCircle = new THREE.Mesh(circleGeo, circleMat);
+        
+        generatingCircle.position.set(R * Math.cos(sweepRad), R * Math.sin(sweepRad), 0);
+        generatingCircle.rotation.x = Math.PI / 2;
+        generatingCircle.rotation.y = sweepRad;
+        scene.add(generatingCircle);
+
+        // C. Draw line for Major Radius R
+        if (radiusLineR) {
+            scene.remove(radiusLineR);
+            radiusLineR.geometry.dispose();
+        }
+        const lineMat = new THREE.LineDashedMaterial({ color: 0x38bdf8, dashSize: 0.2, gapSize: 0.1 });
+        const lineGeo = new THREE.BufferGeometry().setFromPoints([
+            new THREE.Vector3(0, 0, 0),
+            new THREE.Vector3(R * Math.cos(sweepRad), R * Math.sin(sweepRad), 0)
+        ]);
+        radiusLineR = new THREE.Line(lineGeo, lineMat);
+        radiusLineR.computeLineDistances();
+        scene.add(radiusLineR);
+    }
+
+    // --- 5. SYNC HTML LABELS ---
+    function updateLabels() {
+        // Z-Axis Label
+        const posZ = new THREE.Vector3(0, 0, 6).project(camera);
+        const elZ = document.getElementById('lab-z');
+        elZ.style.left = `${(posZ.x * 0.5 + 0.5) * window.innerWidth}px`;
+        elZ.style.top = `${(posZ.y * -0.5 + 0.5) * window.innerHeight}px`;
+        elZ.style.opacity = posZ.z < 1 ? 1 : 0;
+
+        // Circle Label
+        if (generatingCircle) {
+            const posC = generatingCircle.position.clone();
+            posC.z += parseFloat(document.getElementById('param-r').value) + 0.5; // Hover above
+            const projC = posC.project(camera);
+            const elC = document.getElementById('lab-circle');
+            elC.style.left = `${(projC.x * 0.5 + 0.5) * window.innerWidth}px`;
+            elC.style.top = `${(projC.y * -0.5 + 0.5) * window.innerHeight}px`;
+            elC.style.opacity = projC.z < 1 ? 1 : 0;
+        }
+    }
+
+    // --- 6. EVENT LISTENERS & ANIMATION ---
+    document.querySelectorAll('input').forEach(input => {
+        input.addEventListener('input', updateVisualization);
+    });
+
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    // Init
+    updateVisualization();
+
+    // Loop
+    function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        updateLabels();
+        renderer.render(scene, camera);
+    }
+    animate();
+</script>
+</body>
+</html>

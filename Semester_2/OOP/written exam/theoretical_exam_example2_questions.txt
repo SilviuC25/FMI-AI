@@ -1,0 +1,34 @@
+1. What is the exact output of the program when executed? (1p)
+
+
+2. In Section 1, look at the bootDevice function template. Explain whether the call bootDevice(smart); 
+demonstrates Early (Static) Binding or Late (Dynamic) Binding. Why? (1p)
+
+
+3. Analyze the catch blocks in main(). Is there an issue with how exceptions are caught? If yes, 
+how does it affect the execution and how can it be fixed? (1p)
+
+
+4. In Section 2, the inventory vector holds std::shared_ptr. 
+Briefly explain the difference between std::unique_ptr and std::shared_ptr regarding resource ownership. (1p)
+
+
+5. Based on the code, explain what happens to the allocated memory of the Smartphone phone object 
+inside processingCenter() when the exception is thrown. Which destructor(s) are called? (1p)
+
+
+6. Explain the concept of Function Overloading and distinguish it from Function Overriding. 
+Give an example based on how you could overload bootDevice. (1p)
+
+
+7. Write the code to create an associative STL container that maintains its keys sorted in ascending order 
+(logarithmic retrieval time). The keys should be the device model strings, and the values should be integers representing 
+stock counts. (1p)
+
+
+8. What prevents the Device class from being an Interface Class? Modify or describe what change is needed in Device 
+to turn it into an Interface Class. (1p)
+
+
+9. Identify the access specifiers used in the Device class. 
+Can a class derived from Smartphone access the model member variable directly? Why or why not? (1p)

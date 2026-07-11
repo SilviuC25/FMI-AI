@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[]) {
 	int in_file = open(argv[1], O_RDONLY);
-	int out_file = open("out.bin", O_WRONLY | O_CREAT | O_TRUNC, 0644);
+	int out_file = open("out.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
 
 	bool even = true;
 	char current_ch;

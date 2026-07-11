@@ -1,0 +1,86 @@
++---------------------------------------+
+               |              Reading<T>               |
+               |---------------------------------------|
+               | - value: T                            |
+               | - timestamp: int                      |
+               |---------------------------------------|
+               | + Reading(val: T, ts: int)            |
+               | + value(): T                          |
+               | + timestamp(): int                    |
+               +---------------------------------------+
+                     ▲                           ▲
+                     │                           │
+                 (Association)               (Association)
+                     │                           │
++--------------------+------+             +------+--------------------+
+|           Light           |             |          Heater           |
+|---------------------------|             |---------------------------|
+| - brightness_threshold:   |             | - target_temperature:     |
+|   double                  |             |   double                  |
+| - last_reading:           |             | - last_reading:           |
+|   Reading<double>         |             |   Reading<double>         |
+|---------------------------|             |---------------------------|
+| + Light(...)              |             | + Heater(...)             |
+| + should_activate(        |             | + should_activate(        |
+|     r: Reading<double>,   |             |     r: Reading<double>,   |
+|     p: DecisionPolicy&):  |             |     p: DecisionPolicy&):  |
+|     bool                  |             |     bool                  |
++---------------------------+             +---------------------------+
+               △                                 △
+               │                                 │
+               +---------------+-----------------+
+                               │ (Inheritance / is-a)
+                               │
+               +---------------------------------------+
+               |             <<abstract>>              |
+               |               Device                  |
+               |---------------------------------------|
+               | # id: int                             |
+               | # location: string                    |
+               | # energy_cost: double                 |
+               |---------------------------------------|
+               | + Device(id: int, loc: string,        |
+               |          cost: double)                |
+               | + virtual ~Device()                   |
+               | + virtual should_activate(            |
+               |       r: Reading<double>,             |
+               |       p: DecisionPolicy&): bool = 0   |
+               +---------------------------------------+
+                               ▲               :
+                               │               : (Dependency / uses-a)
+        (Composition / has-a)  ♦               V
+               +---------------------------------------+
+               |               SmartHome               |
+               |---------------------------------------|
+               | - devices: vector<Device*>            |
+               |---------------------------------------|
+               | + add_device(d: Device*)              |
+               | + run(readings: map<int,              |
+               |       Reading<double>>,               |
+               |       p: DecisionPolicy&): double     |
+               +---------------------------------------+
+                               :
+                               : (Dependency / uses-a)
+                               V
+               +---------------------------------------+
+               |             <<interface>>             |
+               |            DecisionPolicy             |
+               |---------------------------------------|
+               |---------------------------------------|
+               | + virtual decide(target: double,      |
+               |           current: double): bool = 0  |
+               +---------------------------------------+
+                               △
+                               │ (Inheritance / is-a)
+           +-------------------+-------------------+
+           │                   │                   │
++-------------------+ +-------------------+ +-------------------+
+|   ComfortPolicy   | |EnergySavingPolicy | |  WhitelistPolicy  |
+|-------------------| |-------------------| |-------------------|
+|-------------------| | - tolerance:      | | - accepted:       |
+| + decide(...):    | |   double          | |   vector<double>  |
+|   bool            | |-------------------| |-------------------|
++-------------------+ | + EnergySaving..()| | + Whitelist...()  |
+                      | + decide(...):    | | + decide(...):    |
+                      |   bool            | |   bool            |
+                      +-------------------+ +-------------------+

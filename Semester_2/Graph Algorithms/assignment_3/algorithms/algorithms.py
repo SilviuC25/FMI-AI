@@ -1,11 +1,11 @@
 import heapq
 import time
 import math
-from domain.graph import Graph
+from domain.graph import Graph 
 
 def read_positions(filename: str):
     """
-    Time Complexity: O(V) - we read all vertices from the file
+    Time Complexity: O(V) - because we read all vertices from the file.
     """
     positions = {}
     with open(filename, "r") as file:
@@ -19,7 +19,7 @@ def read_positions(filename: str):
 
 def euclidean_distance(pos1: tuple, pos2: tuple):
     """
-    Time Complexity: O(1)
+    Time Complexity: O(1) - simple arithmetic operations.
     """
     return math.sqrt((pos1[0] - pos2[0])**2 + (pos1[1] - pos2[1])**2)
 

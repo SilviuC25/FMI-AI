@@ -1,0 +1,22 @@
+#!/bin/bash
+
+for filename in "$@"
+do
+	if [ ! -f "$filename" ]; then
+		echo "Error: $filename is not a file"
+		exit 1
+	fi
+	linesWithNum=0
+	linesWithoutNum=0
+	sum=0
+	
+	num=$(grep -E -q "^[0-9]+$" $word)
+
+	
+	
+
+	echo "File '$filename'"
+	echo "The sum is: $sum"
+	ratio=linesWithNum/linesWithoutNum
+	echo "Ratio is: $ratio"
+done
